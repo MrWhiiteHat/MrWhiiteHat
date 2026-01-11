@@ -1,80 +1,27 @@
-<h1 align="center">Hi 👋, I'm MrWhite Hat</h1>
-<h3 align="center">
-🔐 Cybersecurity Enthusiast | B.Tech CSE <br/>
-🥉 2× Bronze Medalist – Odisha Skills (Cybersecurity)
-</h3>
+# 💫 About Me:
+I’m a Cybersecurity Enthusiast & B.Tech CSE student passionate about securing systems, breaking applications ethically, and solving real-world security challenges.<br><br>🏆 2× Bronze Medalist – Odisha Skills (Cyber Security)<br>🔐 Focused on Ethical Hacking, AppSec, Network Security & CTFs<br>💻 Hands-on experience with labs, competitions, and real attack simulations<br>🚀 Constantly learning and building security-focused projects<br><br>I enjoy exploring vulnerabilities, understanding how attackers think, and strengthening systems against modern threats. My goal is to grow as a security professional and contribute to building secure, resilient applications.
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=YOUR_GITHUB_USERNAME&label=Profile%20Views&color=0e75b6&style=flat" />
-  <img src="https://img.shields.io/github/followers/YOUR_GITHUB_USERNAME?label=Followers&style=flat" />
-</p>
 
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?color=36BCF7&center=true&vCenter=true&lines=Ethical+Hacker;Cybersecurity+Engineer+in+Progress;CTF+Player;Odisha+Skills+Bronze+Medalist" />
-</p>
+## 🌐 Socials:
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/sadashiba-sarangi/) 
 
----
+# 💻 Tech Stack:
+![Dart](https://img.shields.io/badge/dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Bash Script](https://img.shields.io/badge/bash_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white) ![PowerShell](https://img.shields.io/badge/PowerShell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white) ![Windows Terminal](https://img.shields.io/badge/Windows%20Terminal-%234D4D4D.svg?style=for-the-badge&logo=windows-terminal&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Alibaba Cloud](https://img.shields.io/badge/AlibabaCloud-%23FF6701.svg?style=for-the-badge&logo=alibabacloud&logoColor=white) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase) ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white) ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white) ![.Net](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white) ![Apache Spark](https://img.shields.io/badge/Apache%20Spark-FDEE21?style=for-the-badge&logo=apachespark&logoColor=black) ![Apache](https://img.shields.io/badge/apache-%23D42029.svg?style=for-the-badge&logo=apache&logoColor=white) ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white) ![Apache Tomcat](https://img.shields.io/badge/apache%20tomcat-%23F8DC75.svg?style=for-the-badge&logo=apache-tomcat&logoColor=black) ![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white) ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi) ![Prisma](https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-a08021?style=for-the-badge&logo=firebase&logoColor=ffcd34) ![AmazonDynamoDB](https://img.shields.io/badge/Amazon%20DynamoDB-4053D6?style=for-the-badge&logo=Amazon%20DynamoDB&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![Scipy](https://img.shields.io/badge/SciPy-%230C55A5.svg?style=for-the-badge&logo=scipy&logoColor=%white)
+# 📊 GitHub Stats:
+![](https://github-readme-stats.vercel.app/api?username=MrWhiitHat&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
+![](https://nirzak-streak-stats.vercel.app/?user=MrWhiitHat&theme=dark&hide_border=false)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=MrWhiitHat&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
-## 🧑‍💻 Professional Summary (Recruiter Friendly)
+## 🏆 GitHub Trophies
+![](https://github-profile-trophy.vercel.app/?username=MrWhiitHat&theme=radical&no-frame=false&no-bg=true&margin-w=4)
 
-Cybersecurity-focused Computer Science Engineering student with **hands-on experience in penetration testing, web security, SOC fundamentals, and digital forensics**.  
-Proven performer at **state-level skill competitions (Odisha Skills – Cybersecurity)** with strong interest in **ethical hacking, AppSec, and security automation**.
+### ✍️ Random Dev Quote
+![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
----
-
-## 🏆 Achievements
-
-- 🥉 **Bronze Medal – Odisha Skills 2024–25 (Cybersecurity)**
-- 🥉 **Bronze Medal – Odisha Skills 2025–26 (Cybersecurity)**
-- 🛡️ District-Level Cybersecurity Expert
-- 🚀 Former Startup Founder
-- 🌐 Managed Discord communities with **100K+ members**
-- 🧪 Active participant in **CTFs & Security Labs**
+### 🔝 Top Contributed Repo
+![](https://github-contributor-stats.vercel.app/api?username=MrWhiitHat&limit=5&theme=dark&combine_all_yearly_contributions=true)
 
 ---
+[![](https://visitcount.itsvg.in/api?id=MrWhiitHat&icon=0&color=0)](https://visitcount.itsvg.in)
 
-## 🛠️ Skills & Technologies
-
-### 🔐 Cybersecurity Domains
-![Web Security](https://img.shields.io/badge/Web%20Security-red?style=for-the-badge)
-![Network Security](https://img.shields.io/badge/Network%20Security-blue?style=for-the-badge)
-![Pentesting](https://img.shields.io/badge/Pentesting-black?style=for-the-badge)
-![SOC](https://img.shields.io/badge/SOC%20Analysis-darkblue?style=for-the-badge)
-![Forensics](https://img.shields.io/badge/Digital%20Forensics-purple?style=for-the-badge)
-
-### 🧰 Tools & Platforms
-![Kali Linux](https://img.shields.io/badge/Kali%20Linux-557C94?style=for-the-badge&logo=kali-linux)
-![Burp Suite](https://img.shields.io/badge/Burp%20Suite-orange?style=for-the-badge)
-![Wireshark](https://img.shields.io/badge/Wireshark-blue?style=for-the-badge)
-![Nmap](https://img.shields.io/badge/Nmap-darkgreen?style=for-the-badge)
-![Metasploit](https://img.shields.io/badge/Metasploit-darkred?style=for-the-badge)
-
-### 💻 Programming & Tech Stack
-![Python](https://img.shields.io/badge/Python-yellow?style=for-the-badge&logo=python)
-![Java](https://img.shields.io/badge/Java-red?style=for-the-badge)
-![Bash](https://img.shields.io/badge/Bash-black?style=for-the-badge)
-![Linux](https://img.shields.io/badge/Linux-grey?style=for-the-badge)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-blue?style=for-the-badge)
-
----
-
-## 🚀 Featured Projects
-
-### 🔹 LLM-Based Autonomous Penetration Testing Agent
-**AI-powered framework** for automating:
-- Reconnaissance
-- Vulnerability discovery
-- Controlled exploitation  
-📌 Focused on **ethical & authorized environments**
-
-### 🔹 Banking Management System
-- Java + REST API backend
-- PostgreSQL database
-- Secure authentication & role-based access
-
-### 🔹 Web Security & CTF Labs
-- SQL Injection, XSS, Auth Bypass
-- Wireshark PCAP analysis
-- Real-world attack simulation writeups
-
-
+<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
