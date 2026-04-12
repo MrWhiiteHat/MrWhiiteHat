@@ -1,53 +1,79 @@
-# 🚀 MrWhite Hat | Cybersecurity • AI Systems • Builder
+# 🚀 MrWhite Hat
 
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?color=00FF9C&size=28&center=true&vCenter=true&width=900&lines=Cybersecurity+Expert;LLM+Autonomous+Agent+Builder;Red+Teamer+%7C+System+Architect;Startup+Focused+Engineer" />
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Cybersecurity-Expert-green?style=for-the-badge">
-  <img src="https://img.shields.io/badge/AI-Systems-blue?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Status-Building-orange?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Mindset-Startup-red?style=for-the-badge">
-</p>
+Cybersecurity Engineer | AI Systems Builder | Startup Developer
 
 ---
 
 ## 👨‍💻 About Me
-
-- 🎓 B.Tech (CSE) | Diploma in Computer Science Engineering  
-- 🛡️ District-Level Cybersecurity Expert  
-- 🥉 2× Odisha Skill Bronze Medalist (Cybersecurity)  
-- 🧠 Building LLM-Based Autonomous Penetration Testing Agent  
-- 🌐 Managed 100K+ member Discord communities  
-- 🚀 Startup builder with real-world system design experience  
-- 📡 Sanchar Mitra (Department of Telecommunications, India)  
+- B.Tech (CSE) + Diploma in Computer Science  
+- District-Level Cybersecurity Expert  
+- 2× Odisha Skill Bronze Medalist (Cybersecurity)  
+- Built startup & managed 100K+ community  
+- Working on LLM-based Autonomous Pentesting Agent  
 
 ---
 
-## 🧠 Core Expertise
+## 🧠 Skills
 
-```yaml
 Cybersecurity:
-  - Penetration Testing (Web, API, Network)
-  - Red Teaming & Vulnerability Assessment
-  - Secure System Design
-  - OSINT & Threat Intelligence
-
-AI / ML:
-  - LLM Systems (Autonomous Agents)
-  - Prompt Engineering
-  - AI Automation
-  - GenAI Systems
+- Penetration Testing
+- Vulnerability Assessment
+- Red Teaming
+- OSINT
 
 Development:
-  - Full Stack (HTML, CSS, JS, FastAPI)
-  - Backend Architecture
-  - API Design & Security
-  - Database Engineering
+- Java, Python, JavaScript
+- FastAPI, Backend Systems
+- REST API Development
+
+AI:
+- LLM Applications
+- Prompt Engineering
+- Automation Systems
 
 DevOps:
-  - Docker
-  - CI/CD
-  - Linux Systems
-  - Secure Deployment
+- Docker
+- Linux
+- Git
+
+---
+
+## 🚀 Projects
+
+### 🧠 Autonomous Pentesting Agent
+AI-based system for scanning and detecting vulnerabilities automatically.
+
+### 🛡️ Security Architecture System
+Backend system with authentication, monitoring, and threat detection.
+
+### 🎥 AI Content Automation
+System to generate and publish AI-based content automatically.
+
+### 🏦 Banking System
+Java + PostgreSQL secure backend for transactions.
+
+---
+
+## 🛠️ Tech Stack
+Java | Python | JavaScript | FastAPI | Docker | PostgreSQL | Linux
+
+---
+
+## 📊 GitHub Stats
+![stats](https://github-readme-stats.vercel.app/api?username=<your-username>&show_icons=true)
+
+---
+
+## 📫 Contact
+GitHub: https://github.com/<your-username>  
+LinkedIn: <your-link>  
+
+---
+
+## ⚠️ Disclaimer
+For educational and ethical use only.
+
+---
+
+## ⭐ Vision
+Building AI systems that secure the future.
