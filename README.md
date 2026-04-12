@@ -17,8 +17,7 @@ I thrive on creating **secure systems**, **data-driven insights**, and **interac
 🔹 **District-Level Cybersecurity Expert**  
 🔹 **Managed Discord communities (100K+ members)**  
 🔹 **Built & led a tech startup project**  
-🔹 Currently developing a **Hacker-Themed 3D Portfolio** using **Three.js + Node.js**
-
+🔹 **Currently developing a AI-based penetration testing Agents**
 ---
 
 ### ⚙️ Tech Arsenal
@@ -37,7 +36,7 @@ I thrive on creating **secure systems**, **data-driven insights**, and **interac
 
 ### 🚧 Current Projects
 
-- 💻 **Hacker-Themed 3D Portfolio** — Three.js + Node.js cyberpunk-style terminal interface  
+  
 - 🔐 **Security Analyzer Toolkit** — Python-based penetration testing automation  
 - 📊 **Business Analytics Dashboard** — Power BI + PostgreSQL for enterprise insights  
 - ⚛️ **Quantum Computing Research** — Impact on classical architecture and instruction cycles  
