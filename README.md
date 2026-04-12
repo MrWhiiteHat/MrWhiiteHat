@@ -14,7 +14,7 @@
 I’m a **Computer Science Engineering (B.Tech)** student with a **Diploma in CSE**, passionate about bridging **security, analytics, and innovation**.  
 I thrive on creating **secure systems**, **data-driven insights**, and **interactive tech experiences** that push boundaries.  
 
-🔹 **2x Bronze madelist In Odisha Skills Cybersecurity **  
+🔹 2x Bronze madelist In Odisha Skills Cybersecurity
 🔹 **Managed Discord communities (100K+ members)**  
 🔹 **Built & led a tech startup project**  
 🔹 Currently developing a AI-based penetration testing Agents
