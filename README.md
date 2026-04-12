@@ -17,7 +17,7 @@ I thrive on creating **secure systems**, **data-driven insights**, and **interac
 🔹 **District-Level Cybersecurity Expert**  
 🔹 **Managed Discord communities (100K+ members)**  
 🔹 **Built & led a tech startup project**  
-🔹 **Currently developing a AI-based penetration testing Agents**
+🔹 Currently developing a AI-based penetration testing Agents
 ---
 
 ### ⚙️ Tech Arsenal
