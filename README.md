@@ -1,152 +1,95 @@
+<!-- 🧠 MrWhite Hat | Hybrid Hacker + Professional Profile -->
+
 <div align="center">
 
-```
-╔══════════════════════════════════════════════════════════════════╗
-║  ██████╗ ██╗   ██╗██╗  ██╗██╗████████╗███████╗██╗  ██╗         ║
-║  ██╔══██╗╚██╗ ██╔╝██║  ██║██║╚══██╔══╝██╔════╝██║  ██║         ║
-║  ██║  ██║ ╚████╔╝ ███████║██║   ██║   █████╗  ███████║         ║
-║  ██║  ██║  ╚██╔╝  ██╔══██║██║   ██║   ██╔══╝  ██╔══██║         ║
-║  ██████╔╝   ██║   ██║  ██║██║   ██║   ███████╗██║  ██║         ║
-║  ╚═════╝    ╚═╝   ╚═╝  ╚═╝╚═╝   ╚═╝   ╚══════╝╚═╝  ╚═╝         ║
-╚══════════════════════════════════════════════════════════════════╝
-```
+# 👋 Hello, I'm <span style="color:#00ffcc;">MrWhiiteHat</span>
 
-# `> whoami`
+### 🧠 Cybersecurity Engineer | AI Builder | Data Analyst
 
-**Cybersecurity Engineer · Ethical Hacker · Builder · Competitive Mathematician**  
-*Odisha, India* · B.Tech CSE @ C.V. Raman Global University
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1000&color=00FF41&background=0D1117&center=true&vCenter=true&width=600&lines=Penetration+Tester+%7C+CTF+Player;LLM-Based+Autonomous+PenTest+Agent+%5BWIP%5D;2x+Odisha+Skill+Bronze+Medalist+%7C+Cybersecurity;District-Level+Cybersecurity+%26+Math+Competitor;Building+at+the+intersection+of+AI+%2B+Security)](https://github.com/MrWhiiteHat)
-
----
+<img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=22&duration=3500&color=00FFD1&center=true&vCenter=true&width=650&lines=Cybersecurity+%7C+AI+%7C+Data+Science;LLM-Based+Autonomous+Pentest+Agent;2x+Odisha+Skill+Bronze+Medalist;Building+Secure+%26+Intelligent+Systems;Exploring+Quantum+Computing" />
 
 </div>
 
-## `$ cat about.txt`
+---
+
+## 🧩 About Me
 
 ```yaml
 name        : MrWhiiteHat
 role        : Cybersecurity Engineer & Full-Stack Developer
-education   : B.Tech CSE (Lateral Entry) — C.V. Raman Global University, Sem 4
+education   : B.Tech CSE (Lateral Entry) — C.V. Raman Global University
+location    : Odisha, India
+
 achievements:
-  - 2x Odisha Skill Bronze Medalist (Cybersecurity)
-  - District-Level Cybersecurity Competitor
-  - District-Level Mathematics & Graph Theory Competitor
-  - Former Startup Founder
-  - Large-Scale Discord Community Manager (10k+ members)
-interests   : [CTFs, Ethical Hacking, AI Security, Data Science, BI Consulting]
+  - 🥉 2x Odisha Skill Bronze Medalist (Cybersecurity)
+  - 🛡️ District-Level Cybersecurity Expert
+  - 🧮 District-Level Mathematics & Graph Theory Competitor
+  - 🚀 Startup Builder
+  - 🌐 Managed Discord Communities (100K+ members)
+
+interests   : [Ethical Hacking, AI Security, Data Science, Quantum Computing]
+
 current     : Building an LLM-Based Autonomous Penetration Testing Agent
 ```
 
 ---
 
-## `$ ls -la /skills`
+## ⚔️ Tech Arsenal
 
-<div align="center">
+### 🔒 Cybersecurity
+Kali Linux · Metasploit · Burp Suite · Wireshark · Nmap
 
-### ⚔️ Offensive Security
-![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kali-linux&logoColor=white)
-![Metasploit](https://img.shields.io/badge/Metasploit-2596CD?style=for-the-badge&logo=metasploit&logoColor=white)
-![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=for-the-badge&logo=burp-suite&logoColor=white)
-![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
-![Nmap](https://img.shields.io/badge/Nmap-4682B4?style=for-the-badge&logo=nmap&logoColor=white)
-
-### 🧠 AI / ML Stack
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
-![Hugging Face](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
+### 🧠 AI / ML
+Python · LangChain · HuggingFace · OpenAI
 
 ### 💻 Development
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white)
+Java · JavaScript · React · Node.js
 
-### 📊 Analytics & BI
-![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
-![Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
-
-</div>
+### 🗃️ Database & Analytics
+PostgreSQL · Oracle · Power BI · Pandas
 
 ---
 
-## `$ cat flagship_project.log`
+## 🤖 Flagship Project
 
-```
-┌─────────────────────────────────────────────────────────────────────┐
-│  🤖  LLM-BASED AUTONOMOUS PENETRATION TESTING AGENT  [ACTIVE DEV]  │
-├─────────────────────────────────────────────────────────────────────┤
-│                                                                     │
-│  STATUS   : 🔴 In Development                                       │
-│  CONCEPT  : An autonomous AI agent that mimics a human pentester    │
-│             — recon → enumeration → exploitation → reporting        │
-│  CORE AI  : LLM backbone (tool-calling, reasoning chains)           │
-│  TARGET   : HTB/CTF-style machines + real-world scoped engagements  │
-│  STACK    : Python · LangChain · Metasploit API · Nmap · SQLMap     │
-│                                                                     │
-│  "Automate the methodology. Amplify the hacker."                    │
-└─────────────────────────────────────────────────────────────────────┘
-```
+LLM-Based Autonomous Penetration Testing Agent  
+Recon → Enumeration → Exploitation → Reporting  
+Stack: Python · LangChain · Nmap · Metasploit  
 
 ---
 
-## `$ ./projects --list`
+## 🚧 Projects
 
-| Project | Stack | Description |
-|--------|-------|-------------|
-| 🏦 **Banking Management System** | Java · REST API · PostgreSQL | Full-stack banking backend with secure transaction flow |
-| 🛒 **E-Commerce Platform Clone** | HTML · CSS · JavaScript | Feature-complete e-commerce frontend with cart & product flow |
-| 🤖 **Autonomous PenTest Agent** | Python · LangChain · Metasploit | AI-driven recon-to-exploit pipeline *(WIP)* |
-
----
-
-## `$ netstat -active` — *Where to find me*
-
-<div align="center">
-
-[![Hack The Box](https://img.shields.io/badge/HackTheBox-9FEF00?style=for-the-badge&logo=hackthebox&logoColor=black)](https://app.hackthebox.com/)
-[![TryHackMe](https://img.shields.io/badge/TryHackMe-212C42?style=for-the-badge&logo=tryhackme&logoColor=white)](https://tryhackme.com/)
-[![CTFtime](https://img.shields.io/badge/CTFtime-003300?style=for-the-badge&logo=ctftime&logoColor=white)](https://ctftime.org/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MrWhiiteHat)
-
-</div>
+- 🔐 Security Analyzer Toolkit (Python)
+- 📊 Business Analytics Dashboard (Power BI + PostgreSQL)
+- 🏦 Banking System (Java + REST API)
+- 🛒 E-Commerce Clone (HTML/CSS/JS)
 
 ---
 
-## `$ github-stats --user MrWhiiteHat`
+## 📊 GitHub Analytics
 
-<div align="center">
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=MrWhiiteHat&show_icons=true&theme=chartreuse-dark&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MrWhiiteHat&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=0D1117"/>
-
-</div>
-
-<div align="center">
-
-[![GitHub Streak](https://streak-stats.demolab.com?user=MrWhiiteHat&theme=terminal&hide_border=true&background=0D1117&ring=00FF41&fire=00FF41&currStreakLabel=00FF41)](https://git.io/streak-stats)
-
-</div>
+![Stats](https://github-readme-stats.vercel.app/api?username=MrWhiiteHat&show_icons=true&theme=chartreuse-dark&hide_border=true)
+![Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=MrWhiiteHat&layout=compact&theme=chartreuse-dark&hide_border=true)
 
 ---
 
-## `$ cat /etc/motd`
+## 🎯 Goals
 
-<div align="center">
+- Master Offensive & Defensive Cybersecurity  
+- Build Autonomous AI Security Systems  
+- Advance in Data Engineering & BI  
+- Explore Quantum Computing  
 
-```
-  "I don't just find the holes in the system.
-   I build the system that finds the holes."
-                                   — MrWhiiteHat
-```
+---
 
-![Visitor Count](https://komarev.com/ghpvc/?username=MrWhiiteHat&color=00ff41&style=flat-square&label=PROFILE+HITS)
+## 🌐 Connect
 
-*Last updated: 2026*
+- LinkedIn: https://www.linkedin.com/in/sadashiba-sarangi/
+- GitHub: https://github.com/MrWhiiteHat/
 
-</div>
+---
+
+## ⚡ Motto
+
+"I don't just find vulnerabilities. I build systems that find them."
