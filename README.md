@@ -63,8 +63,7 @@ education:
 
 achievements:
   - 2x Odisha Skill Bronze Medalist (Cybersecurity)
-  - District-Level Cybersecurity Expert
-  - District-Level Mathematics & Graph Theory Competitor
+  - Cybersecurity Expert
   - Startup Builder
   - Managed Discord Communities (100K+ members)
 
