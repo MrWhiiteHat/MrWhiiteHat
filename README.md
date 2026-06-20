@@ -212,45 +212,7 @@ currently_building:
 
 ---
 
-## 8) 🌐 LIVE DEMO SECTION
-
-<div align="center">
-
-<a href="https://github.com/MrWhiiteHat">
-  <img src="https://img.shields.io/badge/VIEW_REPOSITORIES-00ff41?style=for-the-badge&logo=github&logoColor=black" />
-</a>
-<a href="https://github.com/MrWhiiteHat?tab=repositories">
-  <img src="https://img.shields.io/badge/DEPLOY_PREVIEWS-00ff41?style=for-the-badge&logo=vercel&logoColor=black" />
-</a>
-
-</div>
-
-```bash
-┌──(demo㉿aegis)-[/runtime]
-└─$ ./launch_system --mode live
-[✓] API gateway online
-[✓] Agent mesh synchronized
-[✓] Threat feed connected
-[✓] Dashboard rendering at /monitor
-```
-
----
-
-## 9) ☣️ CYBER THREAT FEED (SIMULATED TERMINAL)
-
-```bash
-[16:20:14] INFO   Inbound packet anomaly detected from 185.xxx.xxx.42
-[16:20:16] WARN   SQLi pattern matched: "' OR 1=1 --"
-[16:20:18] ALERT  Credential stuffing signature identified (confidence: 0.93)
-[16:20:21] ACTION Rate-limit policy applied to suspicious session
-[16:20:25] ACTION WAF rule auto-patched for endpoint /auth/login
-[16:20:29] INFO   SOC notification dispatched to analyst queue
-[16:20:33] SAFE   System integrity maintained. No breach confirmed.
-```
-
----
-
-## 10) 🏴‍☠️ CTF / HACKING SECTION
+## 8) 🏴‍☠️ CTF / HACKING SECTION
 
 - 🔍 Focus Areas: **Web Exploitation, Network Analysis, Adversarial AI Security**
 - 🧪 Methodology: **Recon → Enumerate → Exploit (Ethically) → Report → Automate Defense**
@@ -266,7 +228,7 @@ ctf_profile:
 
 ---
 
-## 11) 📈 GITHUB ANALYTICS
+## 9) 📈 GITHUB ANALYTICS
 
 <div align="center">
 
@@ -281,7 +243,7 @@ ctf_profile:
 
 ---
 
-## 12) 🎯 GOALS / MISSION
+## 10) 🎯 GOALS / MISSION
 
 - Build **autonomous, explainable AI security agents** for real-world cyber defense  
 - Develop **multi-agent architectures** that scale across moderation, intelligence, and incident response  
@@ -290,7 +252,7 @@ ctf_profile:
 
 ---
 
-## 13) 🤝 CONNECT SECTION
+## 11) 🤝 CONNECT SECTION
 
 <div align="center">
 
@@ -305,7 +267,7 @@ ctf_profile:
 
 ---
 
-## 14) 🧬 MOTTO
+## 12) 🧬 MOTTO
 
 <div align="center">
 
@@ -315,7 +277,7 @@ ctf_profile:
 
 ---
 
-## 15) 🛰️ FOOTER
+## 13) 🛰️ FOOTER
 
 <div align="center">
 
