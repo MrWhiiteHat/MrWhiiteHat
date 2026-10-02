@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 140" width="100%"><defs>
+<linearGradient id="w" x1="0" x2="1"><stop offset="0" stop-color="#22d3ee"/><stop offset="1" stop-color="#a78bfa"/></linearGradient></defs>
+<style>.f{font:600 18px 'Courier New',monospace;fill:#67e8f9;letter-spacing:2px}</style>
+<text x="500" y="52" text-anchor="middle" class="f">Let's build something secure &amp; smart ✦</text>
+<g opacity=".35" fill="url(#w)"><path d="M0 90 Q125 60 250 90 T500 90 T750 90 T1000 90 V140 H0Z"><animateTransform attributeName="transform" type="translate" values="0 0;-250 0" dur="7s" repeatCount="indefinite"/></path></g>
+<g opacity=".55" fill="url(#w)"><path d="M-250 105 Q-125 80 0 105 T250 105 T500 105 T750 105 T1000 105 T1250 105 V140 H-250Z"><animateTransform attributeName="transform" type="translate" values="0 0;250 0" dur="5s" repeatCount="indefinite"/></path></g>
+<rect y="124" width="1000" height="16" fill="#020617"/></svg>
