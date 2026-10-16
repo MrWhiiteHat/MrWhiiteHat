@@ -168,64 +168,7 @@ Cybersecurity researcher and AI engineer from **Odisha, India**, currently pursu
 
 <br/>
 
-<!-- ─────────────────────────────────────────── -->
 
-### `> play_games`
-
-<div align="center">
-
-🎮 **Take a break — play something!**
-
-<br/>
-
-<!-- Tic-Tac-Toe -->
-<a href="https://playtictactoe.org/">
-  <img src="https://img.shields.io/badge/❌⭕_Tic_Tac_Toe-2d333b?style=for-the-badge" alt="Tic Tac Toe"/>
-</a>
-&nbsp;
-<!-- 2048 -->
-<a href="https://play2048.co/">
-  <img src="https://img.shields.io/badge/🧩_2048-edc22e?style=for-the-badge&logoColor=black" alt="2048"/>
-</a>
-&nbsp;
-<!-- Wordle -->
-<a href="https://www.nytimes.com/games/wordle/index.html">
-  <img src="https://img.shields.io/badge/📝_Wordle-538d4e?style=for-the-badge&logoColor=white" alt="Wordle"/>
-</a>
-&nbsp;
-<!-- Chess -->
-<a href="https://www.chess.com/play/online">
-  <img src="https://img.shields.io/badge/♟️_Chess-769656?style=for-the-badge&logoColor=white" alt="Chess"/>
-</a>
-
-<br/><br/>
-
-<!-- Minesweeper -->
-<a href="https://minesweeper.online/">
-  <img src="https://img.shields.io/badge/💣_Minesweeper-4a4a4a?style=for-the-badge&logoColor=white" alt="Minesweeper"/>
-</a>
-&nbsp;
-<!-- Tetris -->
-<a href="https://tetris.com/play-tetris">
-  <img src="https://img.shields.io/badge/🟦_Tetris-00e5ff?style=for-the-badge&logoColor=black" alt="Tetris"/>
-</a>
-&nbsp;
-<!-- TypeRacer -->
-<a href="https://play.typeracer.com/">
-  <img src="https://img.shields.io/badge/⌨️_TypeRacer-ff6633?style=for-the-badge&logoColor=white" alt="TypeRacer"/>
-</a>
-&nbsp;
-<!-- Sudoku -->
-<a href="https://sudoku.com/">
-  <img src="https://img.shields.io/badge/🔢_Sudoku-7c4dff?style=for-the-badge&logoColor=white" alt="Sudoku"/>
-</a>
-
-<br/><br/>
-<sub>☕ everyone needs a break sometimes</sub>
-
-</div>
-
-<br/>
 
 <!-- ─────────────────────────────────────────── -->
 

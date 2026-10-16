@@ -1,73 +1,119 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 280">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 320">
   <defs>
-    <filter id="glow" x="-10%" y="-10%" width="120%" height="120%">
-      <feGaussianBlur stdDeviation="3" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-    <filter id="softglow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="8" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0d10"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+    <linearGradient id="accentLine" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#00ff88" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#00ff88" stop-opacity="0.6"/>
+      <stop offset="20%" stop-color="#00ff88" stop-opacity="0.5"/>
+      <stop offset="50%" stop-color="#00e5ff" stop-opacity="0.7"/>
+      <stop offset="80%" stop-color="#7c4dff" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#7c4dff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="accentLine2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7c4dff" stop-opacity="0"/>
+      <stop offset="30%" stop-color="#00e5ff" stop-opacity="0.3"/>
+      <stop offset="70%" stop-color="#00ff88" stop-opacity="0.3"/>
       <stop offset="100%" stop-color="#00ff88" stop-opacity="0"/>
     </linearGradient>
-    <linearGradient id="subtleBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0a0a0a"/>
-      <stop offset="50%" stop-color="#0d1117"/>
-      <stop offset="100%" stop-color="#0a0e0a"/>
+    <linearGradient id="titleFill" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#e2e8f0"/>
+      <stop offset="50%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#e2e8f0"/>
     </linearGradient>
+    <filter id="titleGlow" x="-5%" y="-20%" width="110%" height="140%">
+      <feGaussianBlur stdDeviation="1.5" result="g"/>
+      <feMerge><feMergeNode in="g"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2"/>
+    </filter>
+    <clipPath id="clip"><rect width="900" height="320" rx="10"/></clipPath>
   </defs>
 
   <style>
-    @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0} }
-    @keyframes fadeRole1 { 0%,22%{opacity:1} 25%,100%{opacity:0} }
-    @keyframes fadeRole2 { 0%,24%{opacity:0} 25%,47%{opacity:1} 50%,100%{opacity:0} }
-    @keyframes fadeRole3 { 0%,49%{opacity:0} 50%,72%{opacity:1} 75%,100%{opacity:0} }
-    @keyframes fadeRole4 { 0%,74%{opacity:0} 75%,97%{opacity:1} 100%{opacity:0} }
-    @keyframes pulse { 0%,100%{opacity:0.3} 50%{opacity:0.7} }
+    @keyframes fadeRole1{0%,20%{opacity:1}25%,100%{opacity:0}}
+    @keyframes fadeRole2{0%,24%{opacity:0}25%,45%{opacity:1}50%,100%{opacity:0}}
+    @keyframes fadeRole3{0%,49%{opacity:0}50%,70%{opacity:1}75%,100%{opacity:0}}
+    @keyframes fadeRole4{0%,74%{opacity:0}75%,95%{opacity:1}100%{opacity:0}}
+    @keyframes blink{0%,100%{opacity:1}50%{opacity:0}}
+    @keyframes shimmer{0%{transform:translateX(-400px)}100%{transform:translateX(400px)}}
+    @keyframes breathe{0%,100%{opacity:0.15}50%{opacity:0.35}}
   </style>
 
-  <!-- Background -->
-  <rect width="900" height="280" fill="url(#subtleBg)" rx="12"/>
+  <g clip-path="url(#clip)">
+    <!-- Background -->
+    <rect width="900" height="320" fill="url(#bg)"/>
 
-  <!-- Subtle center glow -->
-  <ellipse cx="450" cy="130" rx="250" ry="100" fill="#00ff88" opacity="0.03" filter="url(#softglow)"/>
+    <!-- Subtle dot grid -->
+    <g opacity="0.04">
+      <line x1="0" y1="0" x2="0" y2="320" stroke="#ffffff" stroke-width="0.5" stroke-dasharray="1 39" transform="translate(100,0)"/>
+      <line x1="0" y1="0" x2="0" y2="320" stroke="#ffffff" stroke-width="0.5" stroke-dasharray="1 39" transform="translate(200,0)"/>
+      <line x1="0" y1="0" x2="0" y2="320" stroke="#ffffff" stroke-width="0.5" stroke-dasharray="1 39" transform="translate(300,0)"/>
+      <line x1="0" y1="0" x2="0" y2="320" stroke="#ffffff" stroke-width="0.5" stroke-dasharray="1 39" transform="translate(400,0)"/>
+      <line x1="0" y1="0" x2="0" y2="320" stroke="#ffffff" stroke-width="0.5" stroke-dasharray="1 39" transform="translate(500,0)"/>
+      <line x1="0" y1="0" x2="0" y2="320" stroke="#ffffff" stroke-width="0.5" stroke-dasharray="1 39" transform="translate(600,0)"/>
+      <line x1="0" y1="0" x2="0" y2="320" stroke="#ffffff" stroke-width="0.5" stroke-dasharray="1 39" transform="translate(700,0)"/>
+      <line x1="0" y1="0" x2="0" y2="320" stroke="#ffffff" stroke-width="0.5" stroke-dasharray="1 39" transform="translate(800,0)"/>
+    </g>
 
-  <!-- Thin border -->
-  <rect x="1" y="1" width="898" height="278" rx="12" fill="none" stroke="#00ff88" stroke-opacity="0.12"/>
+    <!-- Top accent line -->
+    <rect x="0" y="0" width="900" height="2" fill="url(#accentLine)"/>
 
-  <!-- Minimal corner accents -->
-  <path d="M20,12 L20,25" stroke="#00ff88" stroke-width="1" stroke-opacity="0.3"/>
-  <path d="M12,20 L25,20" stroke="#00ff88" stroke-width="1" stroke-opacity="0.3"/>
-  <path d="M880,12 L880,25" stroke="#00ff88" stroke-width="1" stroke-opacity="0.3"/>
-  <path d="M875,20 L888,20" stroke="#00ff88" stroke-width="1" stroke-opacity="0.3"/>
-  <path d="M20,268 L20,255" stroke="#00ff88" stroke-width="1" stroke-opacity="0.3"/>
-  <path d="M12,260 L25,260" stroke="#00ff88" stroke-width="1" stroke-opacity="0.3"/>
-  <path d="M880,268 L880,255" stroke="#00ff88" stroke-width="1" stroke-opacity="0.3"/>
-  <path d="M875,260 L888,260" stroke="#00ff88" stroke-width="1" stroke-opacity="0.3"/>
+    <!-- Two thin horizontal rules framing the name -->
+    <line x1="200" y1="100" x2="700" y2="100" stroke="url(#accentLine)" stroke-width="0.5"/>
+    <line x1="250" y1="210" x2="650" y2="210" stroke="url(#accentLine2)" stroke-width="0.5"/>
 
-  <!-- Main name -->
-  <text x="450" y="105" text-anchor="middle" font-family="'Consolas','Courier New',monospace" font-size="46" font-weight="bold" fill="#e6edf3" letter-spacing="12" filter="url(#glow)">MRWHITEHAT</text>
+    <!-- Subtle diamond accent at center of top line -->
+    <polygon points="450,95 455,100 450,105 445,100" fill="none" stroke="#00e5ff" stroke-width="0.8" opacity="0.4"/>
 
-  <!-- Accent line under name -->
-  <line x1="250" y1="125" x2="650" y2="125" stroke="url(#lineGrad)" stroke-width="1"/>
+    <!-- Main title -->
+    <text x="450" y="168" text-anchor="middle" font-family="'Consolas','Courier New','SF Mono',monospace" font-size="52" font-weight="700" fill="url(#titleFill)" letter-spacing="14" filter="url(#titleGlow)">MRWHITEHAT</text>
 
-  <!-- Cycling roles -->
-  <text x="450" y="158" text-anchor="middle" font-family="'Consolas','Courier New',monospace" font-size="14" fill="#00ff88" opacity="0" style="animation:fadeRole1 12s infinite">AI Systems Developer</text>
-  <text x="450" y="158" text-anchor="middle" font-family="'Consolas','Courier New',monospace" font-size="14" fill="#00ff88" opacity="0" style="animation:fadeRole2 12s infinite">Security Researcher</text>
-  <text x="450" y="158" text-anchor="middle" font-family="'Consolas','Courier New',monospace" font-size="14" fill="#00e5ff" opacity="0" style="animation:fadeRole3 12s infinite">Full-Stack Engineer</text>
-  <text x="450" y="158" text-anchor="middle" font-family="'Consolas','Courier New',monospace" font-size="14" fill="#b388ff" opacity="0" style="animation:fadeRole4 12s infinite">Autonomous Agent Builder</text>
+    <!-- Subtle glow behind title text (very refined, not blobby) -->
+    <text x="450" y="168" text-anchor="middle" font-family="'Consolas','Courier New','SF Mono',monospace" font-size="52" font-weight="700" fill="#00ff88" letter-spacing="14" opacity="0.06" filter="url(#softGlow)">MRWHITEHAT</text>
 
-  <!-- Blinking cursor -->
-  <rect x="575" y="146" width="2" height="14" fill="#00ff88" style="animation:blink 1s step-end infinite"/>
+    <!-- Cycling roles -->
+    <g font-family="'Consolas','Courier New',monospace" font-size="15" text-anchor="middle">
+      <text x="450" y="240" fill="#00ff88" opacity="0" style="animation:fadeRole1 12s ease infinite">AI Systems Developer</text>
+      <text x="450" y="240" fill="#00e5ff" opacity="0" style="animation:fadeRole2 12s ease infinite">Security Researcher</text>
+      <text x="450" y="240" fill="#b388ff" opacity="0" style="animation:fadeRole3 12s ease infinite">Full-Stack Engineer</text>
+      <text x="450" y="240" fill="#00ff88" opacity="0" style="animation:fadeRole4 12s ease infinite">Autonomous Agent Builder</text>
+    </g>
 
-  <!-- Bottom info line -->
-  <text x="450" y="210" text-anchor="middle" font-family="'Consolas','Courier New',monospace" font-size="11" fill="#8b949e">Odisha, India  ·  B.Tech CSE  ·  Building Intelligent Systems</text>
+    <!-- Cursor -->
+    <rect x="556" y="228" width="2" height="15" fill="#e6edf3" opacity="0.8" style="animation:blink 1s step-end infinite"/>
 
-  <!-- Subtle decorative dots -->
-  <circle cx="350" cy="240" r="1.5" fill="#00ff88" opacity="0.2" style="animation:pulse 3s infinite"/>
-  <circle cx="450" cy="240" r="1.5" fill="#00e5ff" opacity="0.2" style="animation:pulse 3s 1s infinite"/>
-  <circle cx="550" cy="240" r="1.5" fill="#7c4dff" opacity="0.2" style="animation:pulse 3s 2s infinite"/>
+    <!-- Bottom info -->
+    <text x="450" y="285" text-anchor="middle" font-family="'Consolas','Courier New',monospace" font-size="11" fill="#6b7280" letter-spacing="2">ODISHA, INDIA  ·  B.TECH CSE  ·  BUILDING INTELLIGENT SYSTEMS</text>
+
+    <!-- Bottom accent line -->
+    <rect x="0" y="318" width="900" height="2" fill="url(#accentLine2)"/>
+
+    <!-- Corner marks — very subtle, refined -->
+    <g stroke="#00ff88" stroke-width="0.7" opacity="0.2">
+      <!-- Top-left -->
+      <line x1="16" y1="10" x2="16" y2="22"/>
+      <line x1="10" y1="16" x2="22" y2="16"/>
+      <!-- Top-right -->
+      <line x1="884" y1="10" x2="884" y2="22"/>
+      <line x1="878" y1="16" x2="890" y2="16"/>
+      <!-- Bottom-left -->
+      <line x1="16" y1="298" x2="16" y2="310"/>
+      <line x1="10" y1="304" x2="22" y2="304"/>
+      <!-- Bottom-right -->
+      <line x1="884" y1="298" x2="884" y2="310"/>
+      <line x1="878" y1="304" x2="890" y2="304"/>
+    </g>
+
+    <!-- Tiny side labels -->
+    <text x="30" y="19" font-family="'Consolas','Courier New',monospace" font-size="7" fill="#6b7280" opacity="0.3">SYS.01</text>
+    <text x="840" y="19" font-family="'Consolas','Courier New',monospace" font-size="7" fill="#6b7280" opacity="0.3" text-anchor="end">v2.0</text>
+
+    <!-- Shimmer effect on top line -->
+    <rect y="0" width="80" height="2" fill="#00ff88" opacity="0.15" rx="1">
+      <animateTransform attributeName="transform" type="translate" values="-100,0;1000,0" dur="4s" repeatCount="indefinite"/>
+    </rect>
+  </g>
 </svg>
