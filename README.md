@@ -47,13 +47,13 @@
       </table>
     </td>
     <td valign="top" width="45%">
-      <h4>🏆 Achievements</h4>
+      <h4>🏆 Achievements & Work</h4>
       <img src="https://img.shields.io/badge/🥉_2×_Bronze_Medal-Odisha_Skills_Cybersecurity-cd7f32?style=flat-square" alt="Bronze Medal"/><br/>
-      <img src="https://img.shields.io/badge/🚀_Startup_Founder-Built_Tech_Products_from_0→1-7c4dff?style=flat-square" alt="Startup"/><br/>
-      <img src="https://img.shields.io/badge/👥_Community_Lead-Developer_Communities_&_Events-ff6633?style=flat-square" alt="Community"/><br/>
-      <img src="https://img.shields.io/badge/🔬_Open_Source-Active_Contributor_&_Builder-00ff88?style=flat-square" alt="Open Source"/><br/>
-      <img src="https://img.shields.io/badge/🛡️_Security_Research-Android_&_Web_App_Pentesting-00bcd4?style=flat-square" alt="Security"/><br/>
-      <img src="https://img.shields.io/badge/🤖_AI_Engineer-LLM_Agents_&_RAG_Systems-b388ff?style=flat-square" alt="AI"/>
+      <img src="https://img.shields.io/badge/🛡️_Built-Autonomous_Mobile_Pentesting_Platform-00bcd4?style=flat-square" alt="MSA"/><br/>
+      <img src="https://img.shields.io/badge/🤖_Built-Multi--Agent_AI_Moderation_System-b388ff?style=flat-square" alt="AegisAI"/><br/>
+      <img src="https://img.shields.io/badge/🔍_Built-Deepfake_Detection_with_CNNs-ff6633?style=flat-square" alt="RealFake"/><br/>
+      <img src="https://img.shields.io/badge/🌾_Built-AI_Chatbot_for_Indian_Farmers-28c840?style=flat-square" alt="KrishiMitra"/><br/>
+      <img src="https://img.shields.io/badge/🌐_Built-3D_Portfolio_with_Three.js-7c4dff?style=flat-square" alt="Portfolio"/>
     </td>
   </tr>
 </table>
