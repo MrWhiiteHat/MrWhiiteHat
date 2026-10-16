@@ -11,6 +11,21 @@
     <code>[ SYSTEM STATUS: ONLINE ] &bull; AI ARCHITECTURE &bull; DEFENSIVE CYBERNETICS &bull; APPLIED REVERSE ENGINEERING</code>
   </p>
 
+  <!-- ============ PORTFOLIO CTA ============ -->
+  <br/>
+
+  <a href="https://mrwhiitehat.github.io/mrwhitehat-3d-portfolio/" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/%F0%9F%8C%90_ENTER_3D_PORTFOLIO-00ff88?style=for-the-badge&logoColor=0d1117" alt="Enter 3D Portfolio"/>
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/MrWhiiteHat?tab=repositories" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/%F0%9F%93%82_ALL_REPOSITORIES-161b22?style=for-the-badge&logo=github&logoColor=white" alt="All Repositories"/>
+  </a>
+
+  <br/><br/>
+
+  <sub><code>Sadashiba Sarangi &bull; B.Tech CSE &bull; Odisha, India &bull; 58+ Followers</code></sub>
+
 </div>
 
 <p align="center">
@@ -60,25 +75,57 @@
 
 <div align="center">
 
-  <!-- UPDATE: Replace with actual repository URL -->
-  <a href="https://github.com/MrWhiiteHat/mobile-security-agent">
-    <img src="assets/project-msa.svg" alt="Mobile Security Agent" width="850"/>
+  <a href="https://github.com/MrWhiiteHat/LLM-Powered-Autonomous-Mobile-Application-Security-Penetration-Testing-Platform">
+    <img src="assets/project-msa.svg" alt="Mobile Security Agent — LLM-Powered Autonomous Mobile App Security Platform" width="850"/>
   </a>
 
   <br/><br/>
 
-  <!-- UPDATE: Replace with actual repository URL -->
-  <a href="https://github.com/MrWhiiteHat/aegisai">
-    <img src="assets/project-aegisai.svg" alt="AegisAI Autonomous Cyber Defense" width="850"/>
+  <a href="https://github.com/MrWhiiteHat/KSecurity-Ai-Intelligence-Discord-bot">
+    <img src="assets/project-aegisai.svg" alt="AegisAI — AI-Powered Discord Security Intelligence Bot" width="850"/>
   </a>
 
   <br/><br/>
 
-  <!-- UPDATE: Replace with actual repository URL -->
-  <a href="https://github.com/MrWhiiteHat/realfake-detection">
-    <img src="assets/project-realfake.svg" alt="RealFake Multimodal Deepfake Detection" width="850"/>
+  <a href="https://github.com/MrWhiiteHat/Real-VS-Fake-Dectection-">
+    <img src="assets/project-realfake.svg" alt="RealFake Detection — AI-Powered Deepfake Detection Platform" width="850"/>
   </a>
 
+  <br/><br/>
+
+  <!-- BONUS: KrishiMitra -->
+  <a href="https://github.com/MrWhiiteHat/AI-Powered-Agricultural-Advisory-Chatbot-for-Indian-Farmers">
+    <img src="assets/project-krishimitra.svg" alt="KrishiMitra — AI-Powered Agricultural Advisory Chatbot" width="850"/>
+  </a>
+
+</div>
+
+<br/>
+
+<p align="center">
+  <img src="assets/divider-cyber.svg" width="900" alt="section divider"/>
+</p>
+
+<!-- ============================================================ -->
+<!-- SECTION: 3D PORTFOLIO SHOWCASE                               -->
+<!-- ============================================================ -->
+<h2 align="center">⟨ DIGITAL.WORKSPACE ⟩</h2>
+
+<div align="center">
+  <img src="assets/portfolio-cta.svg" alt="3D Interactive Portfolio — First-Person Cybersecurity Workspace" width="850"/>
+
+  <br/><br/>
+
+  <a href="https://mrwhiitehat.github.io/mrwhitehat-3d-portfolio/" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/%E2%96%B6_LAUNCH_3D_EXPERIENCE-00ff88?style=for-the-badge&logoColor=0d1117" alt="Launch 3D Portfolio"/>
+  </a>
+  &nbsp;
+  <a href="https://github.com/MrWhiiteHat/mrwhitehat-3d-portfolio" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/SOURCE_CODE-161b22?style=for-the-badge&logo=github&logoColor=white" alt="Portfolio Source Code"/>
+  </a>
+
+  <br/><br/>
+  <sub><code>First-person 3D workspace &bull; React + Three.js + R3F &bull; CTOS Telemetry &bull; Cyber Stations</code></sub>
 </div>
 
 <br/>
@@ -138,14 +185,17 @@
       <img src="https://img.shields.io/badge/GitHub-MrWhiiteHat-0d1117?style=flat-square&logo=github&logoColor=white" alt="GitHub Profile"/>
     </a>
     &nbsp;
-    <!-- UPDATE: Replace with actual LinkedIn profile -->
-    <a href="https://linkedin.com/in/MrWhiiteHat" target="_blank" rel="noopener noreferrer">
+    <!-- UPDATE: Replace with actual LinkedIn profile URL -->
+    <a href="https://linkedin.com/in/" target="_blank" rel="noopener noreferrer">
       <img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn Profile"/>
     </a>
     &nbsp;
-    <!-- UPDATE: Replace with actual contact email address -->
-    <a href="mailto:contact@mrwhitehat.dev">
-      <img src="https://img.shields.io/badge/Encrypted_Mail-Secure_Channel-00ff88?style=flat-square&logo=minutemailer&logoColor=0d1117" alt="Direct Secure Email"/>
+    <a href="mailto:kanhasarangi39@gmail.com">
+      <img src="https://img.shields.io/badge/Email-kanhasarangi39%40gmail.com-00ff88?style=flat-square&logo=gmail&logoColor=0d1117" alt="Email"/>
+    </a>
+    &nbsp;
+    <a href="https://mrwhiitehat.github.io/mrwhitehat-3d-portfolio/" target="_blank" rel="noopener noreferrer">
+      <img src="https://img.shields.io/badge/Portfolio-3D_Experience-7c4dff?style=flat-square&logo=three.js&logoColor=white" alt="3D Portfolio"/>
     </a>
   </p>
 </div>
@@ -170,4 +220,4 @@
   </p>
 </div>
 
-<!-- README.md — MrWhiiteHat | Last generated: auto-updated -->
+<!-- README.md — MrWhiiteHat | Sadashiba Sarangi | Last generated: auto-updated -->

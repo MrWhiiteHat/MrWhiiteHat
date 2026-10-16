@@ -1,0 +1,225 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 220" width="850" height="220">
+  <defs>
+    <!-- Top accent stripe gradient: #7c4dff through #b388ff to #00e5ff (Cyber Violet to Cyan) -->
+    <linearGradient id="ctaTopStripe" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7c4dff" />
+      <stop offset="50%" stop-color="#b388ff" />
+      <stop offset="100%" stop-color="#00e5ff" />
+    </linearGradient>
+
+    <!-- Subtle radial center background glow in violet (#7c4dff at 0.08 opacity) -->
+    <radialGradient id="ctaBgGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7c4dff" stop-opacity="0.08" />
+      <stop offset="65%" stop-color="#7c4dff" stop-opacity="0.02" />
+      <stop offset="100%" stop-color="#0d1117" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Ambient glow behind monitor illustration -->
+    <radialGradient id="ctaMonitorHalo" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7c4dff" stop-opacity="0.22" />
+      <stop offset="60%" stop-color="#00e5ff" stop-opacity="0.06" />
+      <stop offset="100%" stop-color="#0d1117" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Glow Filter -->
+    <filter id="ctaGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Card clipping path -->
+    <clipPath id="ctaCardClip">
+      <rect x="0" y="0" width="850" height="220" rx="8" />
+    </clipPath>
+
+    <!-- Sci-Fi background cyber grid -->
+    <pattern id="ctaGrid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#161b22" stroke-width="0.8" opacity="0.65" />
+    </pattern>
+  </defs>
+
+  <style>
+    .font-mono {
+      font-family: 'Consolas', 'Courier New', monospace;
+    }
+
+    .animated-border {
+      stroke-dasharray: 8 4;
+      animation: borderFlowCta 3s linear infinite;
+    }
+
+    @keyframes borderFlowCta {
+      from { stroke-dashoffset: 0; }
+      to { stroke-dashoffset: 24; }
+    }
+
+    .float-anim {
+      animation: floatWorkspace 3s ease-in-out infinite alternate;
+    }
+
+    @keyframes floatWorkspace {
+      0% { transform: translateY(-5px); }
+      100% { transform: translateY(5px); }
+    }
+
+    .status-pulse {
+      animation: statusBlinkCta 1.8s ease-in-out infinite alternate;
+    }
+
+    @keyframes statusBlinkCta {
+      0% { opacity: 0.45; }
+      100% { opacity: 1; }
+    }
+  </style>
+
+  <!-- 1. Background rounded rect -->
+  <rect x="0.5" y="0.5" width="849" height="219" rx="8" fill="#0d1117" stroke="#1a1a2e" stroke-width="1" />
+
+  <!-- Sci-fi background grid texture -->
+  <rect x="0" y="0" width="850" height="220" rx="8" fill="url(#ctaGrid)" clip-path="url(#ctaCardClip)" />
+
+  <!-- 4. BACKGROUND DECORATION: Subtle center violet radial glow -->
+  <rect x="0" y="0" width="850" height="220" rx="8" fill="url(#ctaBgGlow)" clip-path="url(#ctaCardClip)" />
+
+  <!-- 3. Corner Brackets: HUD-style L-shaped lines at each corner -->
+  <path d="M 12,24 L 12,12 L 24,12" fill="none" stroke="#7c4dff" stroke-width="1.2" opacity="0.4" />
+  <path d="M 838,24 L 838,12 L 826,12" fill="none" stroke="#7c4dff" stroke-width="1.2" opacity="0.4" />
+  <path d="M 12,196 L 12,208 L 24,208" fill="none" stroke="#7c4dff" stroke-width="1.2" opacity="0.4" />
+  <path d="M 838,196 L 838,208 L 826,208" fill="none" stroke="#7c4dff" stroke-width="1.2" opacity="0.4" />
+
+  <!-- Top accent stripe: 4px gradient bar across top edge -->
+  <rect x="0" y="0" width="850" height="4" fill="url(#ctaTopStripe)" clip-path="url(#ctaCardClip)" />
+
+  <!-- 5. LEFT SECTION (x=30-180): 3D WORKSPACE ILLUSTRATION -->
+  <g class="float-anim">
+    <!-- Monitor halo glow -->
+    <circle cx="106" cy="98" r="50" fill="url(#ctaMonitorHalo)" />
+
+    <!-- Circular HUD scanning reticle around workspace -->
+    <circle cx="106" cy="98" r="56" fill="none" stroke="#7c4dff" stroke-width="0.6" stroke-dasharray="3 3" opacity="0.35">
+      <animate attributeName="stroke-dashoffset" from="0" to="24" dur="5s" repeatCount="indefinite" />
+    </circle>
+
+    <!-- Perspective Screen: Trapezoid outline (stroke #7c4dff, fill none) -->
+    <polygon points="56,48 156,48 150,120 62,120" fill="none" stroke="#7c4dff" stroke-width="1.6" filter="url(#ctaGlow)" />
+    <!-- Screen inner bezel -->
+    <polygon points="62,54 150,54 145,114 67,114" fill="#0a0a0a" stroke="#7c4dff" stroke-width="0.6" stroke-opacity="0.4" />
+
+    <!-- Monitor Base: Rectangle (stroke #7c4dff, fill none) -->
+    <!-- Stand neck -->
+    <line x1="106" y1="120" x2="106" y2="134" stroke="#7c4dff" stroke-width="1.8" />
+    <!-- Stand base plate -->
+    <rect x="76" y="134" width="60" height="8" rx="2" fill="none" stroke="#7c4dff" stroke-width="1.4" />
+    <!-- Perspective keyboard / desk grid line -->
+    <path d="M 46,146 L 166,146" stroke="#1f2937" stroke-width="1" stroke-dasharray="4 2" />
+
+    <!-- Elements inside the screen: Wireframe 3D Cube Outline + 3D Node Constellation -->
+    <!-- 3D Wireframe Cube Outline (Isometric) -->
+    <g transform="translate(84, 82)">
+      <!-- Top Face -->
+      <polygon points="0,-12 12,-6 0,0 -12,-6" fill="none" stroke="#00e5ff" stroke-width="1.2" />
+      <!-- Left Face -->
+      <polygon points="-12,-6 0,0 0,14 -12,8" fill="none" stroke="#7c4dff" stroke-width="1.2" />
+      <!-- Right Face -->
+      <polygon points="0,0 12,-6 12,8 0,14" fill="none" stroke="#b388ff" stroke-width="1.2" />
+      <!-- Center vertical axis marker -->
+      <circle cx="0" cy="1" r="1.5" fill="#00ff88" />
+    </g>
+
+    <!-- 3D Node constellation (connected dots representing 3D scene graph) -->
+    <g>
+      <line x1="116" y1="68" x2="134" y2="78" stroke="#7c4dff" stroke-width="1" opacity="0.8" />
+      <line x1="134" y1="78" x2="120" y2="94" stroke="#7c4dff" stroke-width="1" opacity="0.8" />
+      <line x1="116" y1="68" x2="120" y2="94" stroke="#00e5ff" stroke-width="0.8" stroke-dasharray="2 1.5" opacity="0.6" />
+      <line x1="134" y1="78" x2="140" y2="98" stroke="#b388ff" stroke-width="0.8" opacity="0.7" />
+
+      <circle cx="116" cy="68" r="2.4" fill="#00ff88">
+        <animate attributeName="r" values="2;3;2" dur="2s" repeatCount="indefinite" />
+      </circle>
+      <circle cx="134" cy="78" r="2" fill="#00e5ff" />
+      <circle cx="120" cy="94" r="2.2" fill="#ffbd2e" />
+      <circle cx="140" cy="98" r="2.4" fill="#00ff88">
+        <animate attributeName="r" values="2.4;1.8;2.4" dur="2s" repeatCount="indefinite" />
+      </circle>
+    </g>
+
+    <!-- Scanning laser beam across screen -->
+    <line x1="62" y1="58" x2="150" y2="58" stroke="#00e5ff" stroke-width="1.2" opacity="0.8">
+      <animate attributeName="y1" values="56;112;56" dur="2.6s" repeatCount="indefinite" />
+      <animate attributeName="y2" values="56;112;56" dur="2.6s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.25;0.85;0.25" dur="2.6s" repeatCount="indefinite" />
+    </line>
+  </g>
+
+  <!-- 6. CENTER CONTENT (x~200) -->
+  <!-- Title (y~60): INTERACTIVE 3D PORTFOLIO in #e6edf3, font-size 20px, bold, glow -->
+  <text x="200" y="60" class="font-mono" fill="#e6edf3" font-size="20px" font-weight="bold" letter-spacing="0.5px" filter="url(#ctaGlow)">INTERACTIVE 3D PORTFOLIO</text>
+
+  <!-- Subtitle (y~82): First-Person Cybersecurity Workspace in #7c4dff, font-size 13px -->
+  <text x="200" y="82" class="font-mono" fill="#7c4dff" font-size="13px" font-weight="700" letter-spacing="0.8px">First-Person Cybersecurity Workspace</text>
+
+  <!-- Description (y~110, font-size 12px, fill #8b949e, multi-line, line-height 18px) -->
+  <g class="font-mono" font-size="12px" fill="#8b949e">
+    <text x="200" y="108">Immersive Three.js experience with first-person</text>
+    <text x="200" y="126">exploration, live CTOS telemetry, interactive cyber</text>
+    <text x="200" y="144">stations, and real-time visitor logging.</text>
+  </g>
+
+  <!-- Tech line (y~175): Badges: React Three.js R3F Vite WebGL -->
+  <g class="font-mono" transform="translate(0, 162)">
+    <!-- Badge 1: React -->
+    <rect x="200" y="0" width="54" height="22" rx="4" fill="#161b22" stroke="#7c4dff" stroke-opacity="0.3" stroke-width="1" />
+    <text x="227" y="15" fill="#e6edf3" font-size="10px" text-anchor="middle">React</text>
+
+    <!-- Badge 2: Three.js -->
+    <rect x="262" y="0" width="72" height="22" rx="4" fill="#161b22" stroke="#7c4dff" stroke-opacity="0.3" stroke-width="1" />
+    <text x="298" y="15" fill="#e6edf3" font-size="10px" text-anchor="middle">Three.js</text>
+
+    <!-- Badge 3: R3F -->
+    <rect x="342" y="0" width="42" height="22" rx="4" fill="#161b22" stroke="#7c4dff" stroke-opacity="0.3" stroke-width="1" />
+    <text x="363" y="15" fill="#e6edf3" font-size="10px" text-anchor="middle">R3F</text>
+
+    <!-- Badge 4: Vite -->
+    <rect x="392" y="0" width="46" height="22" rx="4" fill="#161b22" stroke="#7c4dff" stroke-opacity="0.3" stroke-width="1" />
+    <text x="415" y="15" fill="#e6edf3" font-size="10px" text-anchor="middle">Vite</text>
+
+    <!-- Badge 5: WebGL -->
+    <rect x="446" y="0" width="56" height="22" rx="4" fill="#161b22" stroke="#7c4dff" stroke-opacity="0.3" stroke-width="1" />
+    <text x="474" y="15" fill="#e6edf3" font-size="10px" text-anchor="middle">WebGL</text>
+  </g>
+
+  <!-- 7. RIGHT SECTION (x~720-830): Telemetry Panel -->
+  <g class="font-mono" transform="translate(670, 36)">
+    <rect x="0" y="0" width="150" height="116" rx="4" fill="#0a0a0a" stroke="#1a1a2e" stroke-width="1" />
+    <rect x="0" y="0" width="150" height="24" rx="4" fill="#161b22" stroke="#1f2937" stroke-width="0.8" />
+    <circle cx="12" cy="12" r="3" fill="#00ff88" class="status-pulse">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="1.8s" repeatCount="indefinite" />
+    </circle>
+    <text x="22" y="16" fill="#00ff88" font-size="9px" font-weight="700" letter-spacing="0.8px">STATUS: LIVE</text>
+
+    <text x="12" y="42" fill="#8b949e" font-size="8px">BUILD  : <tspan fill="#e6edf3">PRODUCTION</tspan></text>
+    <text x="12" y="60" fill="#7c4dff" font-size="8px" font-weight="bold">ENGINE : <tspan fill="#b388ff">THREE.JS</tspan></text>
+    <text x="12" y="78" fill="#8b949e" font-size="8px">FPS    : <tspan fill="#00ff88" font-weight="bold">60</tspan></text>
+    <text x="12" y="96" fill="#8b949e" font-size="8px">SHADERS: <tspan fill="#00e5ff">GLSL POST</tspan></text>
+
+    <!-- Mini animated render telemetry bar -->
+    <rect x="68" y="71" width="70" height="6" rx="2" fill="#0d1117" stroke="#1f2937" stroke-width="0.6" />
+    <rect x="69" y="72" width="62" height="4" rx="1" fill="#00ff88" opacity="0.85">
+      <animate attributeName="width" values="62;56;66;58;62" dur="2.4s" repeatCount="indefinite" />
+    </rect>
+  </g>
+
+  <!-- 8. BOTTOM LINE (y~200-210): [ mrwhiitehat.github.io/mrwhitehat-3d-portfolio ] in #8b949e, font-size 9px -->
+  <line x1="30" y1="188" x2="820" y2="188" stroke="#161b22" stroke-width="1" />
+  <line x1="300" y1="188" x2="550" y2="188" stroke="#7c4dff" stroke-width="1" opacity="0.4" />
+
+  <text x="425" y="204" class="font-mono" fill="#8b949e" font-size="9px" text-anchor="middle" letter-spacing="0.8px">[ mrwhiitehat.github.io/mrwhitehat-3d-portfolio ]</text>
+
+  <!-- 2. ANIMATED BORDER: Stroke #7c4dff, stroke-dasharray 8 4 (0 to 24 over 3s) -->
+  <rect class="animated-border" x="0.5" y="0.5" width="849" height="219" rx="8" fill="none" stroke="#7c4dff" stroke-width="1.5" stroke-opacity="0.85">
+    <animate attributeName="stroke-dashoffset" from="0" to="24" dur="3s" repeatCount="indefinite" />
+  </rect>
+</svg>
