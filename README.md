@@ -21,7 +21,7 @@
 
 <table>
   <tr>
-    <td valign="top" width="60%">
+    <td valign="top" width="55%">
       <p>Cybersecurity researcher and AI engineer building LLM-powered security tools, autonomous AI agents, and full-stack applications.</p>
       <table>
         <tr>
@@ -40,18 +40,33 @@
           <td>⚡ <b>Building</b></td>
           <td>Security tools with autonomous AI</td>
         </tr>
+        <tr>
+          <td>💬 <b>Ask me about</b></td>
+          <td>Mobile security, RAG pipelines, AI agents</td>
+        </tr>
       </table>
     </td>
-    <td valign="top" width="40%">
-      <h4>Highlights</h4>
-      <img src="https://img.shields.io/badge/🥉_2×_Bronze_Medal-Odisha_Skills_·_Cybersecurity-cd7f32?style=flat-square" alt="Bronze Medal"/><br/>
-      <img src="https://img.shields.io/badge/🚀_Startup_Founder-Community_Builder-7c4dff?style=flat-square" alt="Startup"/><br/>
-      <img src="https://img.shields.io/badge/🔬_Open_Source-Contributor_&_Builder-00ff88?style=flat-square" alt="Open Source"/><br/>
-      <img src="https://img.shields.io/badge/🛡️_Security-Application_&_Mobile-00bcd4?style=flat-square" alt="Security"/>
+    <td valign="top" width="45%">
+      <h4>🏆 Achievements</h4>
+      <img src="https://img.shields.io/badge/🥉_2×_Bronze_Medal-Odisha_Skills_Cybersecurity-cd7f32?style=flat-square" alt="Bronze Medal"/><br/>
+      <img src="https://img.shields.io/badge/🚀_Startup_Founder-Built_Tech_Products_from_0→1-7c4dff?style=flat-square" alt="Startup"/><br/>
+      <img src="https://img.shields.io/badge/👥_Community_Lead-Developer_Communities_&_Events-ff6633?style=flat-square" alt="Community"/><br/>
+      <img src="https://img.shields.io/badge/🔬_Open_Source-Active_Contributor_&_Builder-00ff88?style=flat-square" alt="Open Source"/><br/>
+      <img src="https://img.shields.io/badge/🛡️_Security_Research-Android_&_Web_App_Pentesting-00bcd4?style=flat-square" alt="Security"/><br/>
+      <img src="https://img.shields.io/badge/🤖_AI_Engineer-LLM_Agents_&_RAG_Systems-b388ff?style=flat-square" alt="AI"/>
     </td>
   </tr>
 </table>
 
+### `> currently`
+
+```python
+class MrWhiteHat:
+    currently_working_on = "LLM-powered mobile security analysis platform"
+    learning = ["Advanced agentic workflows", "Multi-agent orchestration"]
+    looking_to_collaborate_on = "AI + Security open-source projects"
+    fun_fact = "I reverse engineer apps for fun 🔓"
+```
 
 
 <!-- ─────────────────────────────────────────── -->
