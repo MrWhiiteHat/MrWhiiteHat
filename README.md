@@ -30,7 +30,7 @@
         </tr>
         <tr>
           <td>🎓 <b>Education</b></td>
-          <td>B.Tech — Computer Science & Engineering</td>
+          <td>B.Tech Computer Science & Engineering</td>
         </tr>
         <tr>
           <td>🔭 <b>Focus</b></td>
@@ -49,9 +49,9 @@
     <td valign="top" width="45%">
       <h4>⚡ What Drives Me</h4>
       <p>🥉 Won <b>2 Bronze Medals</b> at <b>Odisha Skills</b> in Cybersecurity</p>
-      <p>🔓 I love breaking into apps to understand how they work - reverse engineering Android APKs, intercepting traffic, finding what others miss</p>
-      <p>🧠 Obsessed with making AI agents that can <i>think and act</i> on their own - not just chatbots, but systems that reason, plan, and execute</p>
-      <p>🌱 From a small town in Odisha to building AI-powered security platforms - always learning, always shipping</p>
+      <p>🔓 I love breaking into apps to understand how they work reverse engineering Android APKs, intercepting traffic, finding what others miss</p>
+      <p>🧠 Obsessed with making AI agents that can <i>think and act</i> on their own not just chatbots, but systems that reason, plan, and execute</p>
+      <p>🌱 From a small town in Odisha to building AI-powered security platforms always learning, always shipping</p>
     </td>
   </tr>
 </table>
