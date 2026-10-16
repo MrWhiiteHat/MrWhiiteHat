@@ -19,13 +19,40 @@
 
 ### `> whoami`
 
-Cybersecurity researcher and AI engineer from **Odisha, India**, currently pursuing **B.Tech in Computer Science & Engineering**. I build LLM-powered security tools, autonomous AI agents, and full-stack applications.
+<table>
+  <tr>
+    <td valign="top" width="60%">
+      <p>Cybersecurity researcher and AI engineer building LLM-powered security tools, autonomous AI agents, and full-stack applications.</p>
+      <table>
+        <tr>
+          <td>📍 <b>Location</b></td>
+          <td>Odisha, India</td>
+        </tr>
+        <tr>
+          <td>🎓 <b>Education</b></td>
+          <td>B.Tech — Computer Science & Engineering</td>
+        </tr>
+        <tr>
+          <td>🔭 <b>Focus</b></td>
+          <td>AI Agents · AppSec · LLM Systems</td>
+        </tr>
+        <tr>
+          <td>⚡ <b>Building</b></td>
+          <td>Security tools with autonomous AI</td>
+        </tr>
+      </table>
+    </td>
+    <td valign="top" width="40%">
+      <h4>Highlights</h4>
+      <img src="https://img.shields.io/badge/🥉_2×_Bronze_Medal-Odisha_Skills_·_Cybersecurity-cd7f32?style=flat-square" alt="Bronze Medal"/><br/>
+      <img src="https://img.shields.io/badge/🚀_Startup_Founder-Community_Builder-7c4dff?style=flat-square" alt="Startup"/><br/>
+      <img src="https://img.shields.io/badge/🔬_Open_Source-Contributor_&_Builder-00ff88?style=flat-square" alt="Open Source"/><br/>
+      <img src="https://img.shields.io/badge/🛡️_Security-Application_&_Mobile-00bcd4?style=flat-square" alt="Security"/>
+    </td>
+  </tr>
+</table>
 
-🥉 **2× Bronze Medalist** — Odisha Skills Competition (Cybersecurity)  
-🚀 Founder & community builder with startup experience  
-🔬 Passionate about open-source, agentic AI, and application security research
 
-<br/>
 
 <!-- ─────────────────────────────────────────── -->
 
