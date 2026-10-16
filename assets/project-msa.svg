@@ -1,0 +1,254 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 300" width="850" height="300">
+  <defs>
+    <!-- Top accent stripe gradient -->
+    <linearGradient id="msaTopStripe" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7c4dff" />
+      <stop offset="50%" stop-color="#00ff88" />
+      <stop offset="100%" stop-color="#00e5ff" />
+    </linearGradient>
+
+    <!-- Subtle radial background glow behind illustration -->
+    <radialGradient id="msaHalo" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00ff88" stop-opacity="0.18" />
+      <stop offset="65%" stop-color="#7c4dff" stop-opacity="0.05" />
+      <stop offset="100%" stop-color="#0d1117" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Subtle radar/glow filter -->
+    <filter id="msaGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Card clipping path for top rounded corners -->
+    <clipPath id="msaCardClip">
+      <rect x="0" y="0" width="850" height="300" rx="8" />
+    </clipPath>
+
+    <!-- Sci-Fi background grid pattern -->
+    <pattern id="msaGrid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#161b22" stroke-width="0.8" opacity="0.65" />
+    </pattern>
+  </defs>
+
+  <style>
+    .font-mono {
+      font-family: 'Consolas', 'Courier New', monospace;
+    }
+
+    .animated-border {
+      stroke-dasharray: 8 4;
+      animation: borderFlowMsa 3s linear infinite;
+    }
+
+    @keyframes borderFlowMsa {
+      from { stroke-dashoffset: 0; }
+      to { stroke-dashoffset: 24; }
+    }
+
+    .pulse-anim {
+      animation: pulseMsa 2.8s ease-in-out infinite alternate;
+    }
+
+    @keyframes pulseMsa {
+      0% { opacity: 0.75; transform: scale(0.98); }
+      100% { opacity: 1; transform: scale(1.02); }
+    }
+
+    .status-pulse {
+      animation: statusBlink 1.8s ease-in-out infinite alternate;
+    }
+
+    @keyframes statusBlink {
+      0% { opacity: 0.45; }
+      100% { opacity: 1; }
+    }
+
+    .tech-badge {
+      transition: all 0.2s ease;
+    }
+  </style>
+
+  <!-- 1. Background rounded rect -->
+  <rect x="0.5" y="0.5" width="849" height="299" rx="8" fill="#0d1117" stroke="#1a1a2e" stroke-width="1" />
+
+  <!-- Sci-fi background grid texture clipped to card -->
+  <rect x="0" y="0" width="850" height="300" rx="8" fill="url(#msaGrid)" clip-path="url(#msaCardClip)" />
+
+  <!-- Futuristic HUD corner brackets -->
+  <path d="M 12,24 L 12,12 L 24,12" fill="none" stroke="#00ff88" stroke-width="1.2" opacity="0.4" />
+  <path d="M 838,24 L 838,12 L 826,12" fill="none" stroke="#00ff88" stroke-width="1.2" opacity="0.4" />
+  <path d="M 12,276 L 12,288 L 24,288" fill="none" stroke="#00ff88" stroke-width="1.2" opacity="0.4" />
+  <path d="M 838,276 L 838,288 L 826,288" fill="none" stroke="#00ff88" stroke-width="1.2" opacity="0.4" />
+
+  <!-- 2. TOP STRIPE: 4px gradient bar across top edge -->
+  <rect x="0" y="0" width="850" height="4" fill="url(#msaTopStripe)" clip-path="url(#msaCardClip)" />
+
+  <!-- 3. LEFT SIDE ILLUSTRATION (x=30-100): Mobile phone outline + magnifying glass -->
+  <g class="pulse-anim" style="transform-origin: 66px 138px;">
+    <!-- Radial ambient glow behind device -->
+    <circle cx="66" cy="138" r="44" fill="url(#msaHalo)" />
+
+    <!-- Mobile Phone Body -->
+    <rect x="42" y="94" width="48" height="88" rx="7" fill="#161b22" stroke="#00ff88" stroke-width="1.6" filter="url(#msaGlow)" />
+    
+    <!-- Phone Screen -->
+    <rect x="46" y="104" width="40" height="68" rx="3" fill="#0a0a0a" stroke="#00ff88" stroke-width="0.6" stroke-opacity="0.35" />
+
+    <!-- Speaker notch -->
+    <rect x="60" y="98" width="12" height="2" rx="1" fill="#00ff88" opacity="0.7" />
+
+    <!-- Home indicator pill -->
+    <rect x="61" y="176" width="10" height="2" rx="1" fill="#00ff88" opacity="0.7" />
+
+    <!-- Screen internal code/hex lines -->
+    <line x1="50" y1="114" x2="68" y2="114" stroke="#00e5ff" stroke-width="1" opacity="0.4" />
+    <line x1="50" y1="121" x2="82" y2="121" stroke="#00e5ff" stroke-width="1" opacity="0.4" />
+    <line x1="50" y1="128" x2="62" y2="128" stroke="#00e5ff" stroke-width="1" opacity="0.4" />
+    <line x1="50" y1="135" x2="78" y2="135" stroke="#00e5ff" stroke-width="1" opacity="0.4" />
+    <line x1="50" y1="142" x2="72" y2="142" stroke="#00e5ff" stroke-width="1" opacity="0.4" />
+    <line x1="50" y1="149" x2="60" y2="149" stroke="#00e5ff" stroke-width="1" opacity="0.4" />
+    <line x1="50" y1="156" x2="76" y2="156" stroke="#00e5ff" stroke-width="1" opacity="0.4" />
+
+    <!-- Animated scanner line moving across the phone screen -->
+    <line x1="46" y1="108" x2="86" y2="108" stroke="#00ff88" stroke-width="1.5" opacity="0.8">
+      <animate attributeName="y1" values="108;166;108" dur="2.8s" repeatCount="indefinite" />
+      <animate attributeName="y2" values="108;166;108" dur="2.8s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.3;0.95;0.3" dur="2.8s" repeatCount="indefinite" />
+    </line>
+
+    <!-- Magnifying Glass Overlaid (representing mobile security scanning) -->
+    <!-- Lens glass disc -->
+    <circle cx="74" cy="146" r="16" fill="#7c4dff" fill-opacity="0.15" stroke="#7c4dff" stroke-width="2" />
+    
+    <!-- Reticle crosshair inside lens -->
+    <circle cx="74" cy="146" r="6" fill="none" stroke="#00ff88" stroke-width="1" stroke-dasharray="2 1.5" opacity="0.85" />
+    <line x1="74" y1="137" x2="74" y2="141" stroke="#00ff88" stroke-width="1.2" opacity="0.8" />
+    <line x1="74" y1="151" x2="74" y2="155" stroke="#00ff88" stroke-width="1.2" opacity="0.8" />
+    <line x1="65" y1="146" x2="69" y2="146" stroke="#00ff88" stroke-width="1.2" opacity="0.8" />
+    <line x1="79" y1="146" x2="83" y2="146" stroke="#00ff88" stroke-width="1.2" opacity="0.8" />
+    
+    <!-- Magnifier Handle -->
+    <line x1="86" y1="158" x2="98" y2="170" stroke="#7c4dff" stroke-width="3.2" stroke-linecap="round" />
+    <line x1="88" y1="160" x2="96" y2="168" stroke="#b388ff" stroke-width="1.4" stroke-linecap="round" />
+  </g>
+
+  <!-- 4. MISSION LABEL (Top-Right Area) -->
+  <g class="font-mono">
+    <!-- Mission badge pill container -->
+    <rect x="670" y="20" width="150" height="38" rx="4" fill="#161b22" stroke="#1f2937" stroke-width="1" />
+    
+    <!-- Blinking status indicator dot -->
+    <circle cx="686" cy="39" r="3" fill="#00ff88" class="status-pulse">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="1.8s" repeatCount="indefinite" />
+    </circle>
+    
+    <!-- Small text MISSION_01 in #8b949e, font-size 10px -->
+    <text x="698" y="33" fill="#8b949e" font-size="10px" font-weight="600" letter-spacing="1.2px">MISSION_01</text>
+    
+    <!-- Below that, text CLASSIFIED: ACTIVE in #00ff88, font-size 9px -->
+    <text x="698" y="47" fill="#00ff88" font-size="9px" font-weight="700" letter-spacing="0.8px">CLASSIFIED: ACTIVE</text>
+  </g>
+
+  <!-- 5. PROJECT NAME: Mobile Security Agent in #e6edf3, font-size 22px, font-weight bold -->
+  <text x="130" y="70" class="font-mono" fill="#e6edf3" font-size="22px" font-weight="bold" letter-spacing="0.4px" filter="url(#msaGlow)">Mobile Security Agent</text>
+
+  <!-- 6. CODENAME: Below name, [MSA] in #7c4dff, font-size 14px -->
+  <text x="130" y="93" class="font-mono" fill="#7c4dff" font-size="14px" font-weight="700" letter-spacing="1px">[MSA]</text>
+
+  <!-- 7. DESCRIPTION (multi-line, font-size 12px, fill #8b949e, starting y~110, x~130) -->
+  <g class="font-mono" font-size="12px" fill="#8b949e">
+    <text x="130" y="118">LLM-assisted mobile application security analysis</text>
+    <text x="130" y="136">platform. Static analysis, reverse engineering,</text>
+    <text x="130" y="154">vulnerability mapping, RAG-powered auditing.</text>
+  </g>
+
+  <!-- Sci-Fi Telemetry Panel / Control Room Diagnostics (Right Side) -->
+  <g class="font-mono" transform="translate(560, 72)">
+    <rect x="0" y="0" width="260" height="98" rx="4" fill="#161b22" fill-opacity="0.65" stroke="#1f2937" stroke-width="1" />
+    <rect x="0" y="0" width="260" height="20" rx="4" fill="#1a1a2e" fill-opacity="0.8" />
+    <text x="10" y="14" fill="#8b949e" font-size="9px" font-weight="600" letter-spacing="0.8px">SYS.TELEMETRY // MSA-SCANNER</text>
+    
+    <text x="10" y="38" fill="#8b949e" font-size="9px">TARGET ARCH : <tspan fill="#e6edf3">Android / iOS</tspan></text>
+    <text x="10" y="54" fill="#8b949e" font-size="9px">HOOK ENGINE : <tspan fill="#00e5ff">Frida Core v16</tspan></text>
+    <text x="10" y="70" fill="#8b949e" font-size="9px">DECOMPILE   : <tspan fill="#e6edf3">JADX IR + CFG</tspan></text>
+    <text x="10" y="86" fill="#8b949e" font-size="9px">AUDIT STATE : <tspan fill="#00ff88" font-weight="bold">ARMED [99.4%]</tspan></text>
+    
+    <!-- Mini animated telemetry signal bar -->
+    <rect x="175" y="78" width="70" height="8" rx="2" fill="#0d1117" stroke="#1f2937" stroke-width="0.8" />
+    <rect x="177" y="80" width="54" height="4" rx="1" fill="#00ff88" opacity="0.85">
+      <animate attributeName="width" values="42;62;48;58;42" dur="3s" repeatCount="indefinite" />
+    </rect>
+  </g>
+
+  <!-- 8. TECH TAGS (y~185, x~130): Small rounded rect badges -->
+  <!-- Badges: Python, LangChain, RAG, Frida, JADX, FastAPI -->
+  <g class="font-mono" transform="translate(0, 185)">
+    <!-- Badge 1: Python -->
+    <rect x="130" y="0" width="56" height="22" rx="4" fill="#161b22" stroke="#00ff88" stroke-opacity="0.25" stroke-width="1" />
+    <text x="158" y="15" fill="#e6edf3" font-size="10px" text-anchor="middle">Python</text>
+
+    <!-- Badge 2: LangChain -->
+    <rect x="194" y="0" width="76" height="22" rx="4" fill="#161b22" stroke="#00ff88" stroke-opacity="0.25" stroke-width="1" />
+    <text x="232" y="15" fill="#e6edf3" font-size="10px" text-anchor="middle">LangChain</text>
+
+    <!-- Badge 3: RAG -->
+    <rect x="278" y="0" width="38" height="22" rx="4" fill="#161b22" stroke="#00ff88" stroke-opacity="0.25" stroke-width="1" />
+    <text x="297" y="15" fill="#e6edf3" font-size="10px" text-anchor="middle">RAG</text>
+
+    <!-- Badge 4: Frida -->
+    <rect x="324" y="0" width="50" height="22" rx="4" fill="#161b22" stroke="#00ff88" stroke-opacity="0.25" stroke-width="1" />
+    <text x="349" y="15" fill="#e6edf3" font-size="10px" text-anchor="middle">Frida</text>
+
+    <!-- Badge 5: JADX -->
+    <rect x="382" y="0" width="44" height="22" rx="4" fill="#161b22" stroke="#00ff88" stroke-opacity="0.25" stroke-width="1" />
+    <text x="404" y="15" fill="#e6edf3" font-size="10px" text-anchor="middle">JADX</text>
+
+    <!-- Badge 6: FastAPI -->
+    <rect x="434" y="0" width="62" height="22" rx="4" fill="#161b22" stroke="#00ff88" stroke-opacity="0.25" stroke-width="1" />
+    <text x="465" y="15" fill="#e6edf3" font-size="10px" text-anchor="middle">FastAPI</text>
+  </g>
+
+  <!-- 9. BOTTOM BAR (y~260-280): Thin bar with Left: Shield icon + Security Analysis; Right: ● ACTIVE -->
+  <!-- Separator line -->
+  <line x1="30" y1="250" x2="820" y2="250" stroke="#161b22" stroke-width="1" />
+  <line x1="130" y1="250" x2="220" y2="250" stroke="#00ff88" stroke-width="1" opacity="0.6" />
+
+  <g class="font-mono">
+    <!-- Left: Small shield icon (simple path) -->
+    <g transform="translate(130, 264)">
+      <path d="M 0,2 L 6,0 L 12,2 L 12,8 C 12,12 6,15 6,15 C 6,15 0,12 0,8 Z" fill="none" stroke="#8b949e" stroke-width="1.2" />
+      <path d="M 6,3 L 6,12" stroke="#8b949e" stroke-width="0.8" opacity="0.6" stroke-dasharray="1 1" />
+      <text x="18" y="11" fill="#8b949e" font-size="10px">Security Analysis</text>
+    </g>
+
+    <!-- Middle-left auxiliary status tags -->
+    <g transform="translate(300, 264)">
+      <text x="0" y="11" fill="#8b949e" opacity="0.5" font-size="9px">PROTOCOL: CVE-MAPPING</text>
+      <text x="140" y="11" fill="#8b949e" opacity="0.5" font-size="9px">VER: 2.4.0</text>
+    </g>
+
+    <!-- Right: Animated dots or status indicator showing ● ACTIVE in #00ff88 -->
+    <g transform="translate(740, 264)">
+      <!-- Radar ripple wave around the dot -->
+      <circle cx="8" cy="8" r="6" fill="none" stroke="#00ff88" stroke-width="1">
+        <animate attributeName="r" values="3;9" dur="2s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0.8;0" dur="2s" repeatCount="indefinite" />
+      </circle>
+      <!-- Core active dot -->
+      <circle cx="8" cy="8" r="3.5" fill="#00ff88">
+        <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite" />
+      </circle>
+      <!-- Status text -->
+      <text x="20" y="11" fill="#00ff88" font-size="10px" font-weight="700" letter-spacing="1px">ACTIVE</text>
+    </g>
+  </g>
+
+  <!-- 10. ANIMATED BORDER: Dashed stroke with animated stroke-dashoffset (0 to 24 over 3s) in #00ff88 -->
+  <rect class="animated-border" x="0.5" y="0.5" width="849" height="299" rx="8" fill="none" stroke="#00ff88" stroke-width="1.5" stroke-opacity="0.85">
+    <animate attributeName="stroke-dashoffset" from="0" to="24" dur="3s" repeatCount="indefinite" />
+  </rect>
+</svg>

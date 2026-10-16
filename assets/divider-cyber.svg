@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 30" width="100%" height="30" fill="none">
+  <defs>
+    <!-- Soft glow filter for cyan and green accents -->
+    <filter id="glowDiv" x="-30%" y="-100%" width="160%" height="300%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Linear gradient for the traveling energy beam -->
+    <linearGradient id="beamGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00ff88" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#00e5ff" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#00ff88" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Clip path to keep the pulse cleanly inside the divider line bounds -->
+    <clipPath id="dividerClip">
+      <rect x="35" y="5" width="830" height="20"/>
+    </clipPath>
+  </defs>
+
+  <style>
+    /* Center diamond pulse (scale 0.8 to 1.2 over 2s) */
+    @keyframes diamondPulse {
+      0% {
+        transform: scale(0.8);
+        opacity: 0.75;
+      }
+      100% {
+        transform: scale(1.2);
+        opacity: 1;
+      }
+    }
+    .center-diamond {
+      animation: diamondPulse 2s ease-in-out infinite alternate;
+    }
+
+    /* Terminal end dots pulsing in opacity */
+    @keyframes dotPulse {
+      0%, 100% {
+        opacity: 0.3;
+        transform: scale(0.85);
+      }
+      50% {
+        opacity: 1;
+        transform: scale(1.2);
+      }
+    }
+    .pulse-dot {
+      animation: dotPulse 2s ease-in-out infinite;
+    }
+
+    /* Traveling energy pulse from left to right (translateX -100 to 1000 over 3s) */
+    @keyframes travelBeam {
+      0% {
+        transform: translateX(-100px);
+        opacity: 0;
+      }
+      4% {
+        opacity: 1;
+      }
+      96% {
+        opacity: 1;
+      }
+      100% {
+        transform: translateX(1000px);
+        opacity: 0;
+      }
+    }
+    .energy-pulse {
+      animation: travelBeam 3s linear infinite;
+    }
+  </style>
+
+  <!-- Base hairline for visual continuity -->
+  <line x1="30" y1="15" x2="870" y2="15" stroke="#00ff88" stroke-width="0.5" stroke-opacity="0.15"/>
+
+  <!-- Left horizontal line segment -->
+  <line x1="45" y1="15" x2="434" y2="15" stroke="#00ff88" stroke-width="1" stroke-opacity="0.4"/>
+
+  <!-- Right horizontal line segment -->
+  <line x1="466" y1="15" x2="855" y2="15" stroke="#00ff88" stroke-width="1" stroke-opacity="0.4"/>
+
+  <!-- Traveling energy pulse clipped to segment boundaries -->
+  <g clip-path="url(#dividerClip)">
+    <rect class="energy-pulse" x="0" y="14" width="80" height="2" rx="1" fill="url(#beamGrad)" filter="url(#glowDiv)"/>
+  </g>
+
+  <!-- Subtle micro-ticks along the line -->
+  <line x1="220" y1="13" x2="220" y2="17" stroke="#00ff88" stroke-width="0.8" opacity="0.3"/>
+  <line x1="330" y1="13" x2="330" y2="17" stroke="#00e5ff" stroke-width="0.8" opacity="0.3"/>
+  <line x1="570" y1="13" x2="570" y2="17" stroke="#00e5ff" stroke-width="0.8" opacity="0.3"/>
+  <line x1="680" y1="13" x2="680" y2="17" stroke="#00ff88" stroke-width="0.8" opacity="0.3"/>
+
+  <!-- Left end decoration: Outer bracket, ring, and pulsing dot -->
+  <path d="M 32,11 L 37,15 L 32,19" fill="none" stroke="#00ff88" stroke-width="1.2" opacity="0.5"/>
+  <circle cx="45" cy="15" r="4.5" fill="none" stroke="#00e5ff" stroke-width="0.7" opacity="0.5"/>
+  <g transform="translate(45, 15)">
+    <circle cx="0" cy="0" r="2.5" fill="#00ff88" class="pulse-dot" filter="url(#glowDiv)"/>
+  </g>
+
+  <!-- Right end decoration: Outer bracket, ring, and pulsing dot -->
+  <path d="M 868,11 L 863,15 L 868,19" fill="none" stroke="#00ff88" stroke-width="1.2" opacity="0.5"/>
+  <circle cx="855" cy="15" r="4.5" fill="none" stroke="#00e5ff" stroke-width="0.7" opacity="0.5"/>
+  <g transform="translate(855, 15)">
+    <circle cx="0" cy="0" r="2.5" fill="#00ff88" class="pulse-dot" filter="url(#glowDiv)"/>
+  </g>
+
+  <!-- Central chevron accent brackets -->
+  <path d="M 430,11 L 436,15 L 430,19" fill="none" stroke="#00e5ff" stroke-width="1.2" opacity="0.6"/>
+  <path d="M 470,11 L 464,15 L 470,19" fill="none" stroke="#00e5ff" stroke-width="1.2" opacity="0.6"/>
+
+  <!-- Center pulsating diamond / rhombus -->
+  <g transform="translate(450, 15)">
+    <g class="center-diamond">
+      <!-- Outer glowing diamond -->
+      <polygon points="0,-7 7,0 0,7 -7,0" fill="#00ff88" filter="url(#glowDiv)"/>
+      <!-- Inner cutout -->
+      <polygon points="0,-4 4,0 0,4 -4,0" fill="#0a0a0a"/>
+      <!-- Core cyan spark -->
+      <circle cx="0" cy="0" r="1.5" fill="#00e5ff"/>
+    </g>
+  </g>
+</svg>

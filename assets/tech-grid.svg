@@ -1,0 +1,355 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 580" width="850" height="580">
+  <defs>
+    <!-- Matrix Header Glow Filter -->
+    <filter id="header-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Card Subtle Glow Filter -->
+    <filter id="card-glow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="2" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    .mono {
+      font-family: 'Consolas', 'Courier New', monospace;
+    }
+    .header-text {
+      font-size: 18px;
+      font-weight: bold;
+      fill: #00ff88;
+      letter-spacing: 2.5px;
+    }
+    .meta-text {
+      font-size: 10px;
+      fill: #8b949e;
+      letter-spacing: 1px;
+    }
+    .category-title {
+      font-size: 13px;
+      font-weight: bold;
+      letter-spacing: 1.5px;
+    }
+    .category-meta {
+      font-size: 10px;
+      fill: #8b949e;
+      letter-spacing: 1px;
+    }
+    .chip-text {
+      font-size: 11.5px;
+      fill: #e6edf3;
+      letter-spacing: 0.3px;
+    }
+
+    /* Orbital slow rotation */
+    @keyframes orbitSpin {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+    .orbital-system {
+      transform-origin: 425px 310px;
+      animation: orbitSpin 35s linear infinite;
+    }
+
+    /* Category indicator dot pulses (staggered by 0.3s) */
+    @keyframes pulseDot {
+      0%, 100% { opacity: 0.45; }
+      50% { opacity: 1; }
+    }
+    @keyframes pulseRing {
+      0%, 100% { opacity: 0.15; stroke-width: 1px; }
+      50% { opacity: 0.7; stroke-width: 1.5px; }
+    }
+
+    .pulse-1 { animation: pulseDot 2s ease-in-out 0s infinite; }
+    .pulse-2 { animation: pulseDot 2s ease-in-out 0.3s infinite; }
+    .pulse-3 { animation: pulseDot 2s ease-in-out 0.6s infinite; }
+    .pulse-4 { animation: pulseDot 2s ease-in-out 0.9s infinite; }
+    .pulse-5 { animation: pulseDot 2s ease-in-out 1.2s infinite; }
+    .pulse-6 { animation: pulseDot 2s ease-in-out 1.5s infinite; }
+
+    .ring-1 { animation: pulseRing 2s ease-in-out 0s infinite; }
+    .ring-2 { animation: pulseRing 2s ease-in-out 0.3s infinite; }
+    .ring-3 { animation: pulseRing 2s ease-in-out 0.6s infinite; }
+    .ring-4 { animation: pulseRing 2s ease-in-out 0.9s infinite; }
+    .ring-5 { animation: pulseRing 2s ease-in-out 1.2s infinite; }
+    .ring-6 { animation: pulseRing 2s ease-in-out 1.5s infinite; }
+  </style>
+
+  <!-- Background Base Container -->
+  <rect x="0.5" y="0.5" width="849" height="579" rx="8" fill="#0d1117" stroke="#1a1a2e" stroke-width="1" />
+
+  <!-- Corner Targeting Reticle Brackets -->
+  <g stroke="#00ff88" stroke-width="1.5" stroke-opacity="0.4" fill="none">
+    <path d="M 16 32 L 16 16 L 32 16" />
+    <path d="M 818 16 L 834 16 L 834 32" />
+    <path d="M 16 548 L 16 564 L 32 564" />
+    <path d="M 818 564 L 834 564 L 834 548" />
+  </g>
+
+  <!-- Background Rotating Orbital Ring (Center: 425, 310) -->
+  <g class="orbital-system">
+    <ellipse cx="425" cy="310" rx="360" ry="210" fill="none" stroke="#00ff88" stroke-width="1" stroke-opacity="0.1" stroke-dasharray="8 12" />
+    <ellipse cx="425" cy="310" rx="220" ry="130" fill="none" stroke="#00bcd4" stroke-width="0.8" stroke-opacity="0.07" stroke-dasharray="5 9" />
+    <circle cx="785" cy="310" r="3" fill="#00ff88" opacity="0.4" />
+    <circle cx="205" cy="310" r="2.5" fill="#00bcd4" opacity="0.4" />
+    <circle cx="425" cy="100" r="2.5" fill="#7c4dff" opacity="0.4" />
+    <!-- Native SVG animation fallback for maximum compatibility -->
+    <animateTransform attributeName="transform" type="rotate" from="0 425 310" to="360 425 310" dur="35s" repeatCount="indefinite" />
+  </g>
+
+  <!-- Header Section -->
+  <g>
+    <!-- Left Meta Tag -->
+    <text x="36" y="36" class="mono meta-text">SYS.ARCH // SPEC-2026</text>
+
+    <!-- Left Header Decorative Line -->
+    <line x1="140" y1="32" x2="255" y2="32" stroke="#00ff88" stroke-width="1" stroke-opacity="0.35" />
+    <polygon points="255,32 259,29 263,32 259,35" fill="#00ff88" opacity="0.7" />
+
+    <!-- Center Header Text with Glow -->
+    <text x="425" y="37" class="mono header-text" text-anchor="middle" filter="url(#header-glow)">&#x27E8; TECHNOLOGY MATRIX &#x27E9;</text>
+
+    <!-- Right Header Decorative Line -->
+    <polygon points="595,32 591,29 587,32 591,35" fill="#00ff88" opacity="0.7" />
+    <line x1="595" y1="32" x2="710" y2="32" stroke="#00ff88" stroke-width="1" stroke-opacity="0.35" />
+
+    <!-- Right Status -->
+    <text x="814" y="36" class="mono meta-text" text-anchor="end">
+      <tspan fill="#8b949e">STATUS: </tspan>
+      <tspan fill="#00ff88" font-weight="bold">ONLINE</tspan>
+    </text>
+
+    <!-- Header Divider Line -->
+    <line x1="25" y1="56" x2="825" y2="56" stroke="#1a1a2e" stroke-width="1" />
+  </g>
+
+  <!-- Row Divider Lines between categories -->
+  <line x1="35" y1="228" x2="815" y2="228" stroke="#161b22" stroke-width="1" stroke-dasharray="4 6" />
+  <line x1="35" y1="392" x2="815" y2="392" stroke="#161b22" stroke-width="1" stroke-dasharray="4 6" />
+
+  <!-- ==================== LEFT COLUMN ==================== -->
+
+  <!-- CATEGORY 1: PROGRAMMING (Indicator: #00ff88) -->
+  <g transform="translate(35, 72)">
+    <!-- Card Frame -->
+    <rect width="375" height="148" rx="8" fill="#0d1117" stroke="#00ff88" stroke-opacity="0.2" stroke-width="1" />
+    <rect x="1" y="1" width="373" height="146" rx="7" fill="#161b22" fill-opacity="0.3" />
+
+    <!-- Header -->
+    <circle cx="22" cy="22" r="8" fill="none" stroke="#00ff88" class="ring-1" />
+    <circle cx="22" cy="22" r="4.5" fill="#00ff88" class="pulse-1" />
+    <text x="36" y="26" class="mono category-title" fill="#00ff88">PROGRAMMING</text>
+    <text x="355" y="26" class="mono category-meta" text-anchor="end">[ 5 LANGS ]</text>
+    <line x1="16" y1="38" x2="359" y2="38" stroke="#00ff88" stroke-opacity="0.12" stroke-width="1" />
+
+    <!-- Chips Row 1: Python, Java, JavaScript -->
+    <!-- Python -->
+    <rect x="18" y="52" width="76" height="26" rx="4" fill="#161b22" stroke="#00ff88" stroke-opacity="0.2" stroke-width="1" />
+    <text x="56" y="69" class="mono chip-text" text-anchor="middle">Python</text>
+
+    <!-- Java -->
+    <rect x="104" y="52" width="60" height="26" rx="4" fill="#161b22" stroke="#00ff88" stroke-opacity="0.2" stroke-width="1" />
+    <text x="134" y="69" class="mono chip-text" text-anchor="middle">Java</text>
+
+    <!-- JavaScript -->
+    <rect x="174" y="52" width="104" height="26" rx="4" fill="#161b22" stroke="#00ff88" stroke-opacity="0.2" stroke-width="1" />
+    <text x="226" y="69" class="mono chip-text" text-anchor="middle">JavaScript</text>
+
+    <!-- Chips Row 2: TypeScript, SQL -->
+    <!-- TypeScript -->
+    <rect x="18" y="88" width="104" height="26" rx="4" fill="#161b22" stroke="#00ff88" stroke-opacity="0.2" stroke-width="1" />
+    <text x="70" y="105" class="mono chip-text" text-anchor="middle">TypeScript</text>
+
+    <!-- SQL -->
+    <rect x="132" y="88" width="56" height="26" rx="4" fill="#161b22" stroke="#00ff88" stroke-opacity="0.2" stroke-width="1" />
+    <text x="160" y="105" class="mono chip-text" text-anchor="middle">SQL</text>
+  </g>
+
+  <!-- CATEGORY 2: AI / ML (Indicator: #7c4dff) -->
+  <g transform="translate(35, 236)">
+    <!-- Card Frame -->
+    <rect width="375" height="148" rx="8" fill="#0d1117" stroke="#7c4dff" stroke-opacity="0.2" stroke-width="1" />
+    <rect x="1" y="1" width="373" height="146" rx="7" fill="#161b22" fill-opacity="0.3" />
+
+    <!-- Header -->
+    <circle cx="22" cy="22" r="8" fill="none" stroke="#7c4dff" class="ring-2" />
+    <circle cx="22" cy="22" r="4.5" fill="#7c4dff" class="pulse-2" />
+    <text x="36" y="26" class="mono category-title" fill="#7c4dff">AI / ML</text>
+    <text x="355" y="26" class="mono category-meta" text-anchor="end">[ 5 MODELS ]</text>
+    <line x1="16" y1="38" x2="359" y2="38" stroke="#7c4dff" stroke-opacity="0.12" stroke-width="1" />
+
+    <!-- Chips Row 1: PyTorch, LangChain, RAG -->
+    <!-- PyTorch -->
+    <rect x="18" y="52" width="82" height="26" rx="4" fill="#161b22" stroke="#7c4dff" stroke-opacity="0.2" stroke-width="1" />
+    <text x="59" y="69" class="mono chip-text" text-anchor="middle">PyTorch</text>
+
+    <!-- LangChain -->
+    <rect x="110" y="52" width="96" height="26" rx="4" fill="#161b22" stroke="#7c4dff" stroke-opacity="0.2" stroke-width="1" />
+    <text x="158" y="69" class="mono chip-text" text-anchor="middle">LangChain</text>
+
+    <!-- RAG -->
+    <rect x="216" y="52" width="56" height="26" rx="4" fill="#161b22" stroke="#7c4dff" stroke-opacity="0.2" stroke-width="1" />
+    <text x="244" y="69" class="mono chip-text" text-anchor="middle">RAG</text>
+
+    <!-- Chips Row 2: LlamaIndex, Ollama -->
+    <!-- LlamaIndex -->
+    <rect x="18" y="88" width="104" height="26" rx="4" fill="#161b22" stroke="#7c4dff" stroke-opacity="0.2" stroke-width="1" />
+    <text x="70" y="105" class="mono chip-text" text-anchor="middle">LlamaIndex</text>
+
+    <!-- Ollama -->
+    <rect x="132" y="88" width="76" height="26" rx="4" fill="#161b22" stroke="#7c4dff" stroke-opacity="0.2" stroke-width="1" />
+    <text x="170" y="105" class="mono chip-text" text-anchor="middle">Ollama</text>
+  </g>
+
+  <!-- CATEGORY 3: DEVELOPMENT (Indicator: #00e5ff) -->
+  <g transform="translate(35, 400)">
+    <!-- Card Frame -->
+    <rect width="375" height="148" rx="8" fill="#0d1117" stroke="#00e5ff" stroke-opacity="0.2" stroke-width="1" />
+    <rect x="1" y="1" width="373" height="146" rx="7" fill="#161b22" fill-opacity="0.3" />
+
+    <!-- Header -->
+    <circle cx="22" cy="22" r="8" fill="none" stroke="#00e5ff" class="ring-3" />
+    <circle cx="22" cy="22" r="4.5" fill="#00e5ff" class="pulse-3" />
+    <text x="36" y="26" class="mono category-title" fill="#00e5ff">DEVELOPMENT</text>
+    <text x="355" y="26" class="mono category-meta" text-anchor="end">[ 5 STACKS ]</text>
+    <line x1="16" y1="38" x2="359" y2="38" stroke="#00e5ff" stroke-opacity="0.12" stroke-width="1" />
+
+    <!-- Chips Row 1: React, Next.js, Node.js -->
+    <!-- React -->
+    <rect x="18" y="52" width="68" height="26" rx="4" fill="#161b22" stroke="#00e5ff" stroke-opacity="0.2" stroke-width="1" />
+    <text x="52" y="69" class="mono chip-text" text-anchor="middle">React</text>
+
+    <!-- Next.js -->
+    <rect x="96" y="52" width="82" height="26" rx="4" fill="#161b22" stroke="#00e5ff" stroke-opacity="0.2" stroke-width="1" />
+    <text x="137" y="69" class="mono chip-text" text-anchor="middle">Next.js</text>
+
+    <!-- Node.js -->
+    <rect x="188" y="52" width="82" height="26" rx="4" fill="#161b22" stroke="#00e5ff" stroke-opacity="0.2" stroke-width="1" />
+    <text x="229" y="69" class="mono chip-text" text-anchor="middle">Node.js</text>
+
+    <!-- Chips Row 2: FastAPI, Flask -->
+    <!-- FastAPI -->
+    <rect x="18" y="88" width="84" height="26" rx="4" fill="#161b22" stroke="#00e5ff" stroke-opacity="0.2" stroke-width="1" />
+    <text x="60" y="105" class="mono chip-text" text-anchor="middle">FastAPI</text>
+
+    <!-- Flask -->
+    <rect x="112" y="88" width="68" height="26" rx="4" fill="#161b22" stroke="#00e5ff" stroke-opacity="0.2" stroke-width="1" />
+    <text x="146" y="105" class="mono chip-text" text-anchor="middle">Flask</text>
+  </g>
+
+  <!-- ==================== RIGHT COLUMN ==================== -->
+
+  <!-- CATEGORY 4: DATA (Indicator: #ffbd2e) -->
+  <g transform="translate(440, 72)">
+    <!-- Card Frame -->
+    <rect width="375" height="148" rx="8" fill="#0d1117" stroke="#ffbd2e" stroke-opacity="0.2" stroke-width="1" />
+    <rect x="1" y="1" width="373" height="146" rx="7" fill="#161b22" fill-opacity="0.3" />
+
+    <!-- Header -->
+    <circle cx="22" cy="22" r="8" fill="none" stroke="#ffbd2e" class="ring-4" />
+    <circle cx="22" cy="22" r="4.5" fill="#ffbd2e" class="pulse-4" />
+    <text x="36" y="26" class="mono category-title" fill="#ffbd2e">DATA</text>
+    <text x="355" y="26" class="mono category-meta" text-anchor="end">[ 3 DBS ]</text>
+    <line x1="16" y1="38" x2="359" y2="38" stroke="#ffbd2e" stroke-opacity="0.12" stroke-width="1" />
+
+    <!-- Chips Row 1: PostgreSQL, MongoDB -->
+    <!-- PostgreSQL -->
+    <rect x="18" y="52" width="108" height="26" rx="4" fill="#161b22" stroke="#ffbd2e" stroke-opacity="0.2" stroke-width="1" />
+    <text x="72" y="69" class="mono chip-text" text-anchor="middle">PostgreSQL</text>
+
+    <!-- MongoDB -->
+    <rect x="136" y="52" width="84" height="26" rx="4" fill="#161b22" stroke="#ffbd2e" stroke-opacity="0.2" stroke-width="1" />
+    <text x="178" y="69" class="mono chip-text" text-anchor="middle">MongoDB</text>
+
+    <!-- Chips Row 2: SQLite -->
+    <!-- SQLite -->
+    <rect x="18" y="88" width="76" height="26" rx="4" fill="#161b22" stroke="#ffbd2e" stroke-opacity="0.2" stroke-width="1" />
+    <text x="56" y="105" class="mono chip-text" text-anchor="middle">SQLite</text>
+  </g>
+
+  <!-- CATEGORY 5: INFRASTRUCTURE (Indicator: #00bcd4) -->
+  <g transform="translate(440, 236)">
+    <!-- Card Frame -->
+    <rect width="375" height="148" rx="8" fill="#0d1117" stroke="#00bcd4" stroke-opacity="0.2" stroke-width="1" />
+    <rect x="1" y="1" width="373" height="146" rx="7" fill="#161b22" fill-opacity="0.3" />
+
+    <!-- Header -->
+    <circle cx="22" cy="22" r="8" fill="none" stroke="#00bcd4" class="ring-5" />
+    <circle cx="22" cy="22" r="4.5" fill="#00bcd4" class="pulse-5" />
+    <text x="36" y="26" class="mono category-title" fill="#00bcd4">INFRASTRUCTURE</text>
+    <text x="355" y="26" class="mono category-meta" text-anchor="end">[ 4 OPS ]</text>
+    <line x1="16" y1="38" x2="359" y2="38" stroke="#00bcd4" stroke-opacity="0.12" stroke-width="1" />
+
+    <!-- Chips Row 1: Docker, Linux, Git -->
+    <!-- Docker -->
+    <rect x="18" y="52" width="76" height="26" rx="4" fill="#161b22" stroke="#00bcd4" stroke-opacity="0.2" stroke-width="1" />
+    <text x="56" y="69" class="mono chip-text" text-anchor="middle">Docker</text>
+
+    <!-- Linux -->
+    <rect x="104" y="52" width="68" height="26" rx="4" fill="#161b22" stroke="#00bcd4" stroke-opacity="0.2" stroke-width="1" />
+    <text x="138" y="69" class="mono chip-text" text-anchor="middle">Linux</text>
+
+    <!-- Git -->
+    <rect x="182" y="52" width="56" height="26" rx="4" fill="#161b22" stroke="#00bcd4" stroke-opacity="0.2" stroke-width="1" />
+    <text x="210" y="69" class="mono chip-text" text-anchor="middle">Git</text>
+
+    <!-- Chips Row 2: GitHub Actions -->
+    <!-- GitHub Actions -->
+    <rect x="18" y="88" width="138" height="26" rx="4" fill="#161b22" stroke="#00bcd4" stroke-opacity="0.2" stroke-width="1" />
+    <text x="87" y="105" class="mono chip-text" text-anchor="middle">GitHub Actions</text>
+  </g>
+
+  <!-- CATEGORY 6: SECURITY (Indicator: #ff5f57) -->
+  <g transform="translate(440, 400)">
+    <!-- Card Frame -->
+    <rect width="375" height="148" rx="8" fill="#0d1117" stroke="#ff5f57" stroke-opacity="0.2" stroke-width="1" />
+    <rect x="1" y="1" width="373" height="146" rx="7" fill="#161b22" fill-opacity="0.3" />
+
+    <!-- Header -->
+    <circle cx="22" cy="22" r="8" fill="none" stroke="#ff5f57" class="ring-6" />
+    <circle cx="22" cy="22" r="4.5" fill="#ff5f57" class="pulse-6" />
+    <text x="36" y="26" class="mono category-title" fill="#ff5f57">SECURITY</text>
+    <text x="355" y="26" class="mono category-meta" text-anchor="end">[ 7 TOOLS ]</text>
+    <line x1="16" y1="38" x2="359" y2="38" stroke="#ff5f57" stroke-opacity="0.12" stroke-width="1" />
+
+    <!-- Chips Row 1: Burp Suite, Frida, JADX, Nmap -->
+    <!-- Burp Suite -->
+    <rect x="18" y="52" width="94" height="26" rx="4" fill="#161b22" stroke="#ff5f57" stroke-opacity="0.2" stroke-width="1" />
+    <text x="65" y="69" class="mono chip-text" text-anchor="middle">Burp Suite</text>
+
+    <!-- Frida -->
+    <rect x="120" y="52" width="62" height="26" rx="4" fill="#161b22" stroke="#ff5f57" stroke-opacity="0.2" stroke-width="1" />
+    <text x="151" y="69" class="mono chip-text" text-anchor="middle">Frida</text>
+
+    <!-- JADX -->
+    <rect x="190" y="52" width="54" height="26" rx="4" fill="#161b22" stroke="#ff5f57" stroke-opacity="0.2" stroke-width="1" />
+    <text x="217" y="69" class="mono chip-text" text-anchor="middle">JADX</text>
+
+    <!-- Nmap -->
+    <rect x="252" y="52" width="54" height="26" rx="4" fill="#161b22" stroke="#ff5f57" stroke-opacity="0.2" stroke-width="1" />
+    <text x="279" y="69" class="mono chip-text" text-anchor="middle">Nmap</text>
+
+    <!-- Chips Row 2: Androguard, Ghidra, Wireshark -->
+    <!-- Androguard -->
+    <rect x="18" y="88" width="96" height="26" rx="4" fill="#161b22" stroke="#ff5f57" stroke-opacity="0.2" stroke-width="1" />
+    <text x="66" y="105" class="mono chip-text" text-anchor="middle">Androguard</text>
+
+    <!-- Ghidra -->
+    <rect x="122" y="88" width="72" height="26" rx="4" fill="#161b22" stroke="#ff5f57" stroke-opacity="0.2" stroke-width="1" />
+    <text x="158" y="105" class="mono chip-text" text-anchor="middle">Ghidra</text>
+
+    <!-- Wireshark -->
+    <rect x="202" y="88" width="92" height="26" rx="4" fill="#161b22" stroke="#ff5f57" stroke-opacity="0.2" stroke-width="1" />
+    <text x="248" y="105" class="mono chip-text" text-anchor="middle">Wireshark</text>
+  </g>
+</svg>
