@@ -47,13 +47,11 @@
       </table>
     </td>
     <td valign="top" width="45%">
-      <h4>🏆 Achievements & Work</h4>
-      <img src="https://img.shields.io/badge/🥉_2×_Bronze_Medal-Odisha_Skills_Cybersecurity-cd7f32?style=flat-square" alt="Bronze Medal"/><br/>
-      <img src="https://img.shields.io/badge/🛡️_Built-Autonomous_Mobile_Pentesting_Platform-00bcd4?style=flat-square" alt="MSA"/><br/>
-      <img src="https://img.shields.io/badge/🤖_Built-Multi--Agent_AI_Moderation_System-b388ff?style=flat-square" alt="AegisAI"/><br/>
-      <img src="https://img.shields.io/badge/🔍_Built-Deepfake_Detection_with_CNNs-ff6633?style=flat-square" alt="RealFake"/><br/>
-      <img src="https://img.shields.io/badge/🌾_Built-AI_Chatbot_for_Indian_Farmers-28c840?style=flat-square" alt="KrishiMitra"/><br/>
-      <img src="https://img.shields.io/badge/🌐_Built-3D_Portfolio_with_Three.js-7c4dff?style=flat-square" alt="Portfolio"/>
+      <h4>⚡ What Drives Me</h4>
+      <p>🥉 Represented Odisha at the <b>National Skills Competition</b> in Cybersecurity — won <b>2 Bronze Medals</b></p>
+      <p>🔓 I love breaking into apps to understand how they work — reverse engineering Android APKs, intercepting traffic, finding what others miss</p>
+      <p>🧠 Obsessed with making AI agents that can <i>think and act</i> on their own — not just chatbots, but systems that reason, plan, and execute</p>
+      <p>🌱 From a small town in Odisha to building AI-powered security platforms — always learning, always shipping</p>
     </td>
   </tr>
 </table>
